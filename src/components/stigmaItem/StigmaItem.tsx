@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import Tooltip, { TooltipProps, tooltipClasses } from '@mui/material/Tooltip';
 import React from "react";
 import { StigmaGrade, StigmaItemProps } from "../../Interfaces";
-import StigmaDescr from "../../StigmaDescr/StigmaDescr";
+import StigmaDescr from "../stigmaDescr/StigmaDescr";
 import { cloneDeep } from "lodash";
 import { useRecoilValue } from "recoil";
 import { sideState } from "../../store";

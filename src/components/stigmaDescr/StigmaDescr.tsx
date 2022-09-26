@@ -1,4 +1,4 @@
-import { StigmaDescrProps } from "../Interfaces";
+import { StigmaDescrProps } from "../../Interfaces";
 
 const StigmaDescr = (props: StigmaDescrProps) => {
   const { currStigma, styles, descrText, descrText2, descrText3, currentLvl } = props
