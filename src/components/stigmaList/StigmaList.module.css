@@ -1,0 +1,13 @@
+.stigmaListWrapper {
+  width: 345px;
+  height: 250px; 
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 25px;
+}
+.stigmaList {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  padding: 10px;
+}

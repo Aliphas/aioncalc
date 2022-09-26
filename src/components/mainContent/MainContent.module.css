@@ -1,0 +1,14 @@
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 720px;
+  max-width: 100vw;
+  min-height: 550px;
+}
+.topPartWrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  flex-wrap: wrap;
+}

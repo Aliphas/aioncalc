@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin: 0;
+}
+.topBar {
+  position: relative;
+  display: flex;
+  width: 300px;
+  height: 70px;
+  align-items: center;
+}
+.sides {
+  position: relative;
+  display: flex;
+  width: 50px;
+  height: 34px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.asmo{
+  position: absolute;
+  top: -32px; 
+}
+.header h3 {
+  display: flex;
+  justify-content: center;
+  width: 110px;
+  margin-right: 10px;
+}
+.lvl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 20px 0 0px;
+}
+.lvl input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 28px;
+  font-size: 26px;
+  padding: 0;
+  margin: 5px 3px 5px 10px
+}
+.lvl input::-webkit-outer-spin-button,
+.lvl input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

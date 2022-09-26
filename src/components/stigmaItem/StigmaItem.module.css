@@ -1,0 +1,65 @@
+.stigma {
+  left: 0;
+  top: 0;
+  margin: 0 8px 4px 0;
+  padding: 1px;
+  z-index: 3;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  outline: 1px solid black;
+}
+.stigma:hover {
+  box-sizing: content-box;
+  border: 1px solid gold;
+  outline: 2px solid black;
+  padding: 0px; 
+}
+.defaultStigma, .greenStigma, .redStigma, .stigma {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.defaultStigma {
+  left: 0;
+  top: 0;
+  margin: 0 8px 4px 0;
+  padding: 1px;
+  border-radius: 2px;
+}
+.greenStigma {
+  left: 0;
+  top: 0;
+  margin: 0 8px 4px 0;
+  padding: 1px;
+  border-radius: 2px;
+  background-color: green;
+}
+.greenStigma .stigma {
+  opacity: 0.5;
+}
+.redStigma {
+  left: 0;
+  top: 0;
+  margin: 0 8px 4px 0;
+  padding: 1px;
+  border-radius: 2px;
+}
+.redStigma .stigma {
+  opacity: 0.5;
+}
+.descr {
+  min-width: 220px;
+}
+.descrText, .descrValues {
+  border-bottom: 1px solid black;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+.redColor {
+  color: red;
+}
+.stage {
+  font-size: 12px;
+  color: grey;
+}
