@@ -1,21 +1,24 @@
 import { TextField } from '@mui/material';
 import ClassesList from '../classesList/ClassesList';
 import styles from './Header.module.css';
-import { ClassList, ClassProps, HeaderProps } from '../../Interfaces';
-import { activeClassIndexState, classesState, currClassValue, currentLvlInputedState, currentLvlState, sideState, urlArrState } from '../../store';
-import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
-import { useEffect } from 'react';
+import { ClassList, ClassProps } from '../../Interfaces';
+import { activeClassIndexState, classesState, currClassValue, currentLvlInputedState, currentLvlState, sideState } from '../../store';
+import { useRecoilState, useRecoilValue } from 'recoil';
+import { memo, useEffect } from 'react';
+import useClear from '../actions/clear';
+import { NavigateFunction, useNavigate } from 'react-router-dom';
 
-
-const Header = ({ clear }: HeaderProps) => {
+const Header = () => {
   const [activeClassIndex, setActiveClassIndex] = useRecoilState<number>(activeClassIndexState)
   const [currentLvl, setCurrentLvl] = useRecoilState<number>(currentLvlState)
   const [currentLvlInputed, setCurrentLvlInputed] = useRecoilState<number>(currentLvlInputedState)
   const classes = useRecoilValue<ClassProps[]>(classesState)
   const classesList: ClassList[] = classes.map(el => ({ id: el.id, name: el.name }))
   const currClass = useRecoilValue<ClassProps>(currClassValue)
+  const currClassName = currClass.name[0].toUpperCase() + currClass.name.slice(1)
   const [side, setSide] = useRecoilState<boolean>(sideState)
-  const setUrlArr = useSetRecoilState(urlArrState)
+  const navigate: NavigateFunction = useNavigate()
+  const clear: () => void = useClear()
 
   useEffect(() => {
     const timeOutId = setTimeout(() => setCurrentLvl(currentLvlInputed || currentLvl), 500);
@@ -31,17 +34,14 @@ const Header = ({ clear }: HeaderProps) => {
     lvlChange()
   }, [currentLvl]);
 
-  useEffect(() => {
-    clear()
-    setUrlArr(Array(12).fill('nn'))
+  useEffect(() => { 
+    // clear() 
   }, [activeClassIndex])//activeClassId
 
   const handleLvl = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     Number(event.target.value) && setCurrentLvlInputed(Number(event.target.value))
   }
   const toggleSide = () => { setSide(!side) }
-
-  const currClassName = currClass.name[0].toUpperCase() + currClass.name.slice(1)
 
   return <header className={styles.header}>
     <h1>Aion stigma calculator</h1>
@@ -50,6 +50,8 @@ const Header = ({ clear }: HeaderProps) => {
       setActiveClassIndex={setActiveClassIndex}
       classesList={classesList}
       clear={clear}
+      side={side}
+      lvl={currentLvl}
     />
     <div className={styles.topBar}>
       <div className={styles.sides}>
@@ -71,11 +73,8 @@ const Header = ({ clear }: HeaderProps) => {
           onChange={(event) => handleLvl(event)}
         />
       </div>
-
-
     </div>
-
   </header>
 }
 
-export default Header
+export default memo(Header)

@@ -1,3 +1,4 @@
+import { useLocation } from 'react-router-dom';
 import { atom, selector } from 'recoil'
 import classes from './classes.json'
 import { ClassProps, StigmaProps } from './Interfaces'
@@ -34,7 +35,7 @@ export const currClassValue = selector<ClassProps>({
 })
 export const urlArrState = atom<Array<string>>({
   key: "urlArrState",
-  default: Array(12).fill('nn')
+  default: Array(12).fill('00')
 })
 
 export const normalSlots = atom<Array<StigmaProps | null>>({

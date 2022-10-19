@@ -1,29 +1,19 @@
 import { cloneDeep } from "lodash"
-import { useEffect } from "react"
-import { Navigate, useLocation, useNavigate, useParams } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 import { useRecoilState, useRecoilValue } from "recoil"
-import { AddProps, ChangeUrlProps, ClassProps, LoadProps, RemoveProps, StigmaProps } from "../../Interfaces"
-import { activeClassIndexState, advancedSlots, advancedSlotsCount, classesState, normalSlots, normalSlotsCount, urlArrState } from "../../store"
-import useChangeUrl from "./changeUrl"
+import { AddProps, ClassProps, StigmaProps } from "../../Interfaces"
+import { advancedSlots, advancedSlotsCount, classesState, normalSlots, normalSlotsCount } from "../../store"
 
 const useAddStigma = () => {
   const [classes, setClasses] = useRecoilState(classesState)
   const [nSlots, setNSlots] = useRecoilState(normalSlots)
   const [aSlots, setASlots] = useRecoilState(advancedSlots)
-  const activeClassIndex = useRecoilValue(activeClassIndexState)
+  // const activeClassIndex = useRecoilValue(activeClassIndexState)
   const nCount = useRecoilValue(normalSlotsCount)
   const aCount = useRecoilValue(advancedSlotsCount)
-  let navigate = useNavigate()
-  const [urlArr, setUrlArr ] = useRecoilState(urlArrState)
-  let { sideParam, lvlParam, slotsParam } = useParams()
-  const params = {sideParam, lvlParam, slotsParam , activeClass: classes[activeClassIndex]}
-  const nSlotsClone: (StigmaProps | null)[] = cloneDeep(nSlots)
-    const aSlotsClone: (StigmaProps | null)[] = cloneDeep(aSlots)
-  const allSlots = nSlotsClone.concat(aSlotsClone)
-  const changeUrl = useChangeUrl()
-  useEffect(() => {
-    changeUrl({navigate, params, urlArr, setUrlArr, allSlots})
-  }, [])
+  const location = useLocation()
+  const activeClass = classes.find(curr => curr.name === location.pathname.split("/")[1])!
+  const activeClassIndex = classes.indexOf(activeClass)
 
   const addStigma = (stigma: StigmaProps) => {
     const nSlotsClone: (StigmaProps | null)[] = cloneDeep(nSlots)
@@ -34,16 +24,15 @@ const useAddStigma = () => {
     const isAlreadyActive = nSlots.find(slot => slot?.id === stigma.id)
       || aSlots.find(slot => slot?.id === stigma.id)
     
-    const addProps: AddProps = { stigmaClone, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount, navigate, params, urlArr, setUrlArr }
+    const addProps: AddProps = { stigmaClone, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount }
     !isAlreadyActive && ( !stigma.dependencies ? add(addProps) : addAdvanced(addProps) )
     
     setClasses(classesClone)
     setNSlots(nSlotsClone)
-    setASlots(aSlotsClone)  
-
-    
-
-    
+    setASlots(aSlotsClone)
+    // console.log(stigma.name)
+    const changedState = {classes, nSlots, aSlots}
+    return changedState
   }
   return addStigma
 }
@@ -63,16 +52,11 @@ const add = (props: AddProps) => {
   stigmaClone.isActive === true && !stigmaClone.dependencies 
     && nSlotsClone[nIndex] !== stigmaClone && (aSlotsClone[aIndex] = stigmaClone)
   stigmaClone.isActive === true && stigmaClone.dependencies
-    && (aSlotsClone[aIndex] = stigmaClone)
-    
-    
-   
+    && (aSlotsClone[aIndex] = stigmaClone)   
 }
 
-
-
 const addAdvanced = (props: AddProps) => {
-  const { stigmaClone, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount, navigate, params, urlArr, setUrlArr  } = props
+  const { stigmaClone, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount  } = props
   let isDependencies: boolean = false
   const dependencies1: StigmaProps[] = stigmaClone.dependencies!.map(dep => (
     classesClone[activeClassIndex].stigmas
@@ -89,14 +73,14 @@ const addAdvanced = (props: AddProps) => {
           .find(currStigma => currStigma.id === dep)!
       ))
       dependencies3 && dependencies3.map(depStigma3 => {
-        !depStigma3.isActive && add({ stigmaClone: depStigma3, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount, navigate, params, urlArr, setUrlArr })
+        !depStigma3.isActive && add({ stigmaClone: depStigma3, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount })
         !depStigma3.isActive && (isDependencies = true)
       })
-      !depStigma2.isActive && add({ stigmaClone: depStigma2, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount, navigate, params, urlArr, setUrlArr  })
+      !depStigma2.isActive && add({ stigmaClone: depStigma2, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount  })
       !depStigma2.isActive && (isDependencies = true)
     })
 
-    !depStigma1.isActive && add({ stigmaClone: depStigma1, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount, navigate, params, urlArr, setUrlArr  })
+    !depStigma1.isActive && add({ stigmaClone: depStigma1, nSlotsClone, aSlotsClone, classesClone, activeClassIndex, nCount, aCount  })
     !depStigma1.isActive && (isDependencies = true)
 
   })
@@ -105,38 +89,6 @@ const addAdvanced = (props: AddProps) => {
   !isDependencies && stigmaClone.isActive === true && (aSlotsClone[aIndex] = stigmaClone)
 }
 
-const useRemoveStigma = (stigma: StigmaProps) => {
-  const [classes, setClasses] = useRecoilState(classesState)
-  const [nSlots, setNSlots] = useRecoilState(normalSlots)
-  const [aSlots, setASlots] = useRecoilState(advancedSlots)
-  const activeClassIndex = useRecoilValue(activeClassIndexState)
 
-  const nSlotsClone = cloneDeep(nSlots)
-  const aSlotsClone = cloneDeep(aSlots)
-  const classesClone = cloneDeep(classes)
-  const nIndex = nSlots.indexOf(stigma)
-  const aIndex = aSlots.indexOf(stigma)
-
-  nIndex !== -1 && remove({ stigma, classesClone, slots: nSlotsClone, index: nIndex, activeClassIndex })
-  aIndex !== -1 && remove({ stigma, classesClone, slots: aSlotsClone, index: aIndex, activeClassIndex })
-
-  aSlotsClone.map((slot, index) => {
-    slot?.dependencies && slot.dependencies.map(dep => {
-      stigma.id === dep && remove({ stigma: slot, classesClone, slots: aSlotsClone, index, activeClassIndex })
-      classesClone[activeClassIndex].stigmas
-        .find(currStigma => currStigma.id === dep)!.isActive === false && remove({ stigma: slot, classesClone, slots: aSlotsClone, index, activeClassIndex })
-    })
-  })
-  setClasses(classesClone)
-  setNSlots(nSlotsClone)
-  setASlots(aSlotsClone)
-}
-
-const remove = (props: RemoveProps) => {
-  const { stigma, classesClone, slots, index, activeClassIndex } = props
-  classesClone[activeClassIndex].stigmas
-    .find(currStigma => currStigma.id === stigma.id)!.isActive = false
-  slots[index] = null
-}
 
 export default useAddStigma

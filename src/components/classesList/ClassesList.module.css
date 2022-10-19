@@ -25,35 +25,35 @@
   opacity: 0.7;
 }
 .classesList a:nth-child(1) {
-  background: url("../../assets/gladiator.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/gladiator.png");
 }
 .classesList a:nth-child(2) {
-  background: url("../../assets/templar.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/templar.png");
 }
 .classesList a:nth-child(3) {
-  background: url("../../assets/cleric.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/cleric.png");
 }
 .classesList a:nth-child(4) {
-  background: url("../../assets/chanter.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/chanter.png");
 }
 .classesList a:nth-child(5) {
-  background: url("../../assets/assassin.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/assassin.png");
 }
 .classesList a:nth-child(6) {
-  background: url("../../assets/ranger.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/ranger.png");
 }
 .classesList a:nth-child(7) {
-  background: url("../../assets/sorcerer.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/sorcerer.png");
 }
 .classesList a:nth-child(8) {
-  background: url("../../assets/spiritmaster.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/spiritmaster.png");
 }
 .classesList a:nth-child(9) {
-  background: url("../../assets/songweaver.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/songweaver.png");
 }
 .classesList a:nth-child(10) {
-  background: url("../../assets/gunner.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/gunner.png");
 }
 .classesList a:nth-child(11) {
-  background: url("../../assets/aethertech.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/aethertech.png");
 }

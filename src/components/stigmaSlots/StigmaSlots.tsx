@@ -2,7 +2,6 @@ import styles from './StigmaSlots.module.css'
 import { StigmaSlotsProps } from '../../Interfaces'
 import { useRecoilValue } from 'recoil'
 import { advancedSlots, advancedSlotsCount, normalSlots, normalSlotsCount } from '../../store'
-import slots from '../../assets/stigmaslots.png'
 import StigmaItemWrapper from '../stigmaItem/StigmaItemWrapper'
 
 const StigmaSlots = (props: StigmaSlotsProps) => {
@@ -17,7 +16,7 @@ const StigmaSlots = (props: StigmaSlotsProps) => {
       <div className={styles.nSlots}>
         {nSlots.map((slot, index) =>
           <div className={index < nCount ? styles.nSlot : styles.nSlotClosed} key={index}>
-            <img src={slots} className={styles.nSlotImg} alt='Stigma slot'/>
+            <img src="https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/stigmaslots.png" className={styles.nSlotImg} alt='Stigma slot'/>
             <div className={styles.stigmaIconBox}>
               {slot && index < nCount && <StigmaItemWrapper stigma={slot} currentLvl={currentLvl} stigmaAction={stigmaAction} stigmaPos='slot'/>}
             </div>
@@ -27,7 +26,7 @@ const StigmaSlots = (props: StigmaSlotsProps) => {
       <div className={styles.aSlots}>
         {aSlots.map((slot, index) =>
           <div className={index < aCount ? styles.aSlot : styles.aSlotClosed} key={index}>
-          <img src={slots} className={styles.aSlotImg} alt='Stigma slot'/>
+          <img src='https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/stigmaslots.png' className={styles.aSlotImg} alt='Stigma slot'/>
           <div className={styles.stigmaIconBox}>
             {slot && index < aCount && <StigmaItemWrapper stigma={slot} currentLvl={currentLvl} stigmaAction={stigmaAction} stigmaPos='slot'/>}
           </div>

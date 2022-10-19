@@ -18,12 +18,13 @@ export interface ClassesListProps {
   activeClassIndex: number
   setActiveClassIndex: SetterOrUpdater<number>
   classesList: Array<ClassList>
-  clear: () => void
+  clear?: () => void
+  side: boolean
+  lvl: number
 }
 export interface MainContentProps {
   currentLvl: number
   index: number
-  clear: () => void
 }
 export interface StigmaListProps {
   currentLvl: number
@@ -143,16 +144,7 @@ export interface AddProps {
   classesClone: ClassProps[],
   activeClassIndex: number,
   nCount: number,
-  aCount: number,
-  navigate: NavigateFunction
-  params: {
-    sideParam: string | undefined,
-    lvlParam: string | undefined,
-    slotsParam: string | undefined,
-    activeClass: ClassProps
-  }
-  urlArr: Array<string>
-  setUrlArr: SetterOrUpdater<Array<string>>
+  aCount: number
 }
 export interface AddAdvancedProps {
   stigmaClone: StigmaProps,
@@ -168,16 +160,8 @@ export interface RemoveProps {
   activeClassIndex: number
 }
 export interface ChangeUrlProps {
-  navigate: NavigateFunction,
-  params: {
-    sideParam: string | undefined;
-    lvlParam: string | undefined;
-    slotsParam: string | undefined
-    activeClass: ClassProps
-  },
-  urlArr: Array<string>,
-  setUrlArr: SetterOrUpdater<Array<string>>
-  allSlots: (StigmaProps | null)[]
+  navigate: NavigateFunction
+  clear?: boolean
 }
 export interface LoadProps {
 

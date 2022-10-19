@@ -2,7 +2,6 @@ import { StigmaListProps, StigmaProps } from '../../Interfaces'
 import styles from './StigmaList.module.css'
 import StigmaItemWrapper from '../stigmaItem/StigmaItemWrapper'
 
-
 const StigmaList = (props: StigmaListProps) => {
   const { currentLvl, stigmaList, stigmaAction } = props
 
@@ -20,7 +19,6 @@ const StigmaList = (props: StigmaListProps) => {
         )}
       </div>
     </div>
-
   )
 }
 

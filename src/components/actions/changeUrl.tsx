@@ -1,21 +1,18 @@
-import { cloneDeep } from "lodash"
-import { ChangeUrlProps } from "../../Interfaces"
+import { NavigateFunction } from "react-router-dom"
+import { useRecoilValue } from "recoil"
+import { advancedSlots, currClassValue, currentLvlState, normalSlots, sideState } from "../../store"
 
-const useChangeUrl = () => {
+const useChangeUrl = (navigate: NavigateFunction) => {
+  const currClass = useRecoilValue(currClassValue)
+  const currLvl = useRecoilValue(currentLvlState)
+  const currSide = useRecoilValue(sideState)
+  const nSlots = useRecoilValue(normalSlots)
+  const aSlots = useRecoilValue(advancedSlots)
+  const slots = nSlots.concat(aSlots).map(slot => slot?.id || "00").join("")
 
-  const changeUrl = (props: ChangeUrlProps) => {
-    const {navigate, params, urlArr, setUrlArr, allSlots} = props
-    let {activeClass: activeClass, sideParam, lvlParam } = params
-    let urlArrClone = cloneDeep(urlArr)
-
-    allSlots.map((slot, index) => slot !== null && (urlArrClone[index] = slot.id))
-    setUrlArr(urlArrClone)
-    
-    // navigate(`/${activeClass.name}/${sideParam || 0}/${lvlParam || 65}/${urlArr.toString().replace(/[\s,]/g, '')}`)
-    navigate(`/${activeClass.name}/${sideParam || 0}/${lvlParam || 65}/${urlArrClone.join("")}`)
-    console.log(urlArr)
+  const changeUrl = () => {
+    navigate(`/${currClass.name}/${Number(currSide)}${currLvl}${slots}`)
   }  
-  
   return changeUrl
 }
 

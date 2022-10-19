@@ -4,7 +4,7 @@
     "name": "gladiator",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Improved Stamina",
         "descr": ["Restores your HP by 20% and increase your Max HP by 20%, Block by 150 and Parry by 100 for 2 min."],
         "lvl": [20],
@@ -16,7 +16,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Advanced Dual-Wielding",
         "descr": ["Allows you to use dual weapons skillfully."],
         "lvl": [20, 40],
@@ -28,7 +28,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Crippling Cut",
         "descr": ["Inflicts ", " physical damage to the fallen enemy."],
         "lvl": [22, 28, 34, 40, 46, 52, 58, 64],
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Severe Weakening Blow",
         "descr": ["Inflicts ", " physical damage on the target. The target's Defence and Evasion are decreased by ", " and ", " respectively for 10 sec."],
         "descrMod": ["Chain skill level 1"],
@@ -73,7 +73,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Ankle Snare",
         "descr": ["Immobilizes a target within 25m for 10 sec and decreases itsEvasion by 1000."],
         "lvl": [28],
@@ -85,7 +85,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Vengeful Strike",
         "descr": ["Upon successful parry, inflicts ", " damage to the target."],
         "lvl": [25, 31, 37, 43, 49, 55, 61],
@@ -104,7 +104,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Lockdown",
         "descr": ["Inflicts ", " physical damage on the target. The target is bound for 3 sec."],
         "lvl": [25, 31, 37, 43, 49, 55],
@@ -122,7 +122,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Howl",
         "descr": ["Lowers Attack of the enemies within a 7m radius of you by ", " for 15 sec."],
         "lvl": [34, 46, 58],
@@ -137,7 +137,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Dauntless Spirit",
         "descr": ["For 10 sec, a protective shield absorb damage with 100% chance whenever you hit by attack. The protective shield remains until ",
          " damage is absorbed."],
@@ -156,7 +156,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Absorbing Fury",
         "descr": ["Inflicts ", " physical damage on enemies with 7m of you and absorb 50 of damage as HP."],
         "descrMod": ["Chain skill level 1"],
@@ -175,7 +175,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Unwavering Devotion",
         "descr": ["Increases your Shock Resist by 800 for 1 min. 30 sec."],
         "lvl": [37],
@@ -187,7 +187,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Siegebreaker",
         "descr": ["Deals 16-20 physical damage to the target. Deals na extra ", " physical damage to castle gates"],
         "lvl": [40, 46, 52, 58, 64],
@@ -203,7 +203,7 @@
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Earthquake Wave",
         "descr": ["Deals ", " physical damage on the enemies within 10m radius of you and decreases their Speed for 8-10 sec."],
         "lvl": [44, 50, 56, 62],
@@ -220,7 +220,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Draining Blow",
         "descr": ["Deals ", " physical damage to a stumbled anemy and absorb 100 of damage as HP."],
         "lvl": [45, 51, 57, 63],
@@ -236,7 +236,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Slaughter",
         "descr": ["Magical Acc is increased by 300. You deal an additional 25% damage when attacking a player"],
         "descrMod": ["Active Skill"],
@@ -248,7 +248,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Pearcing Rupture",
         "name_ely": "Shattering Wave",
         "descr": ["Deals ", " physical damage to up to 18 enemies within a 10m radius, and decreases their Defence by 600 for 30 sec."],
@@ -273,7 +273,7 @@
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Second Wind",
         "descr": ["Recovers HP by 35% and increases Max HP by 35% and Strike Fortitude by 50 for 1 min."],
         "lvl": [54],
@@ -285,7 +285,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Spin Block",
         "descr": ["Increases your Parry by 200 for 30 sec."],
         "lvl": [58],
@@ -297,7 +297,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Exhausting Wave",
         "descr": ["Inflicts 67-70 physical damage on enemies within 7m of the caster and absorb 20 of the damage as HP."],
         "descrMod": ["Multicast 3 times", "Chain skill level 1"],
@@ -311,7 +311,7 @@
         ]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Magical Defence",
         "descr": ["IIncreases your Spell Debuff by 500 and decrease your Magical Resistance by 100 for 15 sec."],
         "lvl": [62],
@@ -323,7 +323,7 @@
         ]
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Fetterwine",
         "descr": ["Immobilizes a target within 15m for 10 sec."],
         "lvl": [65],
@@ -335,7 +335,7 @@
         ]
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Precision Cut",
         "descr": ["Inflicts ", " damage to the target."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -365,11 +365,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_charginghit_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_charginghit_g7.png"
         ],
-        "dependencies": ["02", "03"],
+        "dependencies": ["03", "04"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Berserking",
         "descr": ["Increases Attack by 80% for 30 sec while decreasing Accuracy by 200 and defence by 50%."],
         "lvl": [45],
@@ -379,11 +379,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_berserkstance_g1.png"
         ],
-        "dependencies": ["06"],
+        "dependencies": ["07"],
         "ap": [6875]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Severe Precision Cut",
         "descr": ["A wide swing of the weapon inflicts ", " physical damage on all enemies within 7m. May also render them Stumble."],
         "descrMod": ["Chain skill level 1"],
@@ -413,11 +413,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_chargingshock_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_chargingshock_g6.png"
         ],
-        "dependencies": ["21", "22"],
+        "dependencies": ["22", "23"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Tendon Slice",
         "descr": ["Inflicts", "damage to the target and immobilizes it for 8 sec."],
         "lvl": [52, 55, 58, 61, 64],
@@ -432,11 +432,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_kneecrash_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_kneecrash_g5.png"
         ],
-        "dependencies": ["02", "06"],
+        "dependencies": ["03", "07"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Sure Strike",
         "descr": ["Inflicts", "undodgeable physical damage on the target."],
         "descrMod": ["Chain skill level 1"],
@@ -464,11 +464,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_burserklance_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_burserklance_g4.png"
         ],
-        "dependencies": ["23", "24"],
+        "dependencies": ["24", "25"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Spite Strike",
         "descr": ["Upon successful parry, inflicts ", " damage to the target and puts it in the Stumble state."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -485,11 +485,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_technicalcounter_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_technicalcounter_g7.png"
         ],
-        "dependencies": ["05", "08"],
+        "dependencies": ["06", "09"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Sharp Strike",
         "descr": ["Inflicts ", " damage to the target."],
         "descrMod": ["Chain skill level 1"],
@@ -507,11 +507,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_sharpnesshit_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_sharpnesshit_g7.png"
         ],
-        "dependencies": ["01"],
+        "dependencies": ["02"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "28",
+        "id": "29",
         "name": "Vicious Blow",
         "descr": ["Inflicts ", " damage to the target."],
         "descrMod": ["Chain skill level 2", "Sharp Strike - Severing Strike"],
@@ -527,11 +527,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_vorpalhit_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_vorpalhit_g4.png"
         ],
-        "dependencies": ["26", "27"],
+        "dependencies": ["27", "28"],
         "ap": [19350, 42900, 53600, 64200]
       },
       {
-        "id": "29",
+        "id": "30",
         "name": "Whirling Strike",
         "descr": ["Inflicts", "damage by dashing to the target within 15m radius."],
         "lvl": [52, 55, 58, 61, 64],
@@ -547,11 +547,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_jumpattack_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_jumpattack_g5.png"
         ],
-        "dependencies": ["01", "05"],
+        "dependencies": ["02", "06"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "30",
+        "id": "31",
         "name": "Draining Sword",
         "descr": ["Inflicts", " damage to the target and has a chance to absorb 50 of damage as HP."],
         "descrMod": ["Severing Strike - Draining Sword"],
@@ -566,7 +566,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_drainsword_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gladiator/live_fi_drainsword_g4.png"
         ],
-        "dependencies": ["28", "29"],
+        "dependencies": ["29", "30"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]
@@ -576,7 +576,7 @@
     "name": "templar",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Divine Fury",
         "descr": ["Increases your Attack by 30% for 30 sec."],
         "lvl": [20],
@@ -588,7 +588,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Holy Shield",
         "descr": ["IFor 30 sec, you reflect ", " damage back to enemies within 5m radius when they successfully land attack on you."],
         "lvl": [20, 31, 42, 54],
@@ -604,7 +604,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Doom Lure",
         "descr": ["Grabs an enemy within 15m of you, pulling it to you, increasing its Emnity toward you, and decreasing its Speed for 10 sec."],
         "lvl": [22],
@@ -616,7 +616,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Provoking Roar",
         "descr": ["Taunts up to 5 enemies within a 15m radius of you to increase their Enmity"],
         "lvl": [25, 31, 37, 43, 49, 55, 61],
@@ -634,7 +634,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Punishment",
         "descr": ["Inflicts ", " random physical damage on the target by wielding a Greatsword."],
         "lvl": [28, 34, 40, 46, 52, 58, 64],
@@ -653,7 +653,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Incite Rage",
         "descr": ["Taunts a target within 15m, increases its Enmity toward you for a short time."],
         "lvl": [28, 34, 40, 46, 52, 58, 61, 64],
@@ -672,7 +672,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Break Power",
         "descr": ["Inflicts ", "physical damage on a stumbled target and decrease its Attack by", "for 30 sec. While the skill is in effect, your Attack increases by"],
         "lvl": [34, 40, 46, 52, 58, 64],
@@ -691,7 +691,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Unwavering Devotion",
         "descr": ["Increases your Shock Resist by 800 for 1 min. 30 sec."],
         "lvl": [34],
@@ -703,7 +703,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Bodyguard",
         "descr": ["For 30 seconds, you suffer 100% damage instead of an ally within 25 meter radius whenever ally receives Attack."],
         "lvl": [37, 48, 60],
@@ -717,7 +717,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Inquisitor's Blow",
         "descr": ["Inflicts ", " physical damage on a target within 15m radius of you"],
         "lvl": [40, 52, 58, 64],
@@ -733,7 +733,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Siegebreaker",
         "descr": ["Deals 16-20 physical damage to the target. Deals na extra ", " physical damage to castle gates"],
         "lvl": [40, 46, 52, 58, 64],
@@ -749,7 +749,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Power of Restoration",
         "descr": ["Recovers your HP by", "every 6 sec for 1 min."],
         "lvl": [44, 50, 56, 62],
@@ -765,7 +765,7 @@
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Aether Armor",
         "descr": ["Increases your Magic Resist by 800 for 30 sec."],
         "lvl": [45],
@@ -777,7 +777,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Terrible Howl",
         "descr": ["Tounts up to 4 enemies within 10m radius of you, increasing their Enmity towards you, redusing their Speed, and Fearing them for 4 sec."],
         "lvl": [48],
@@ -789,7 +789,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Punishment of Darkness",
         "name_ely": "Shattering Wave",
         "descr": ["Deals ", " physical damage to the target and absorb 50% of damage as HP."],
@@ -813,7 +813,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Barricade of Steel",
         "descr": ["Increases Block by 1,000, Physical Def by 15%, Stun, Knock Back, Stumble, Spin, and Aether's Hold Resists by 1,000, and reflects",
         " damage to the enemy that Physical Attacks you within a 20 meter radius."],
@@ -828,7 +828,7 @@
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Stubborn Spirit",
         "descr": ["increases your Block by 1,000, Physical Def by 15%, Stun, Knock Back, Stumble, Spin, and Aether's Hold Resists by 1,000, Immobilization Resist by 1,000, Reduce Speed Resist by 1,000, and Magic Suppression by 700. This skill is canceled if another skill is used. You cannot jump while using this skill. Shield required."],
         "descrMod": ["This skill is disabled if another skill is used. You cannot jump while the skill is in effect.", "A shield required", "Active Skill"],
@@ -841,7 +841,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Illusion Chains",
         "descr": ["Pulls up to 3 enemies within a 16 meter radius before you, increases Enmity, and decreases their movement speed for 10 seconds."],
         "lvl": [60],
@@ -853,7 +853,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Restoration Sacrifice",
         "descr": ["Transfers your HP to a target within 25m so that they recover 3000."],
         "lvl": [62],
@@ -866,7 +866,7 @@
         ]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Punishing Thrust",
         "descr": ["Inflicts 2016-2020 physical damage on a target."],
         "lvl": [62],
@@ -878,7 +878,7 @@
         ]
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Divine Justice",
         "descr": ["Inflicts","earth damage on a target within a 25m radius and stuns the target for 2 sec."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -896,11 +896,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_brainstorm_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_brainstorm_g7.png"
         ],
-        "dependencies": ["00", "06"],
+        "dependencies": ["01", "07"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Magic Smash",
         "descr": ["Inflicts","earth damage on a target within a 25m radius."],
         "descrMod": ["Chain skill level 3", "Robust Blow - Magic Smash"],
@@ -919,11 +919,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_powersink_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_powersink_g7.png"
         ],
-        "dependencies": ["01"],
+        "dependencies": ["02"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Empyrean Fury",
         "descr": ["Increases Attack by 50%, Magical Acc by 200 and Magic Boost by 200 for 30 sec."],
         "lvl": [50],
@@ -933,11 +933,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_destructwish_g1.png"
         ],
-        "dependencies": ["20", "21"],
+        "dependencies": ["21", "22"],
         "ap": [19350]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Punishing Wave",
         "descr": ["Inflicts", "damage on up to 6 enemies wihin a 6m raduis, and immobilizes them for 10 sec."],
         "lvl": [52, 55, 58, 61, 64],
@@ -953,11 +953,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_fortitudewave_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_fortitudewave_g5.png"
         ],
-        "dependencies": ["01", "06"],
+        "dependencies": ["07", "02"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Shieldburst",
         "descr": ["Inflicts", " physical damage on the target with no miss chance, and stumbles the enemy."],
         "descrMod": ["A shield required"],
@@ -973,11 +973,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_destructshield_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_destructshield_g4.png"
         ],
-        "dependencies": ["22", "23"],
+        "dependencies": ["23", "24"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Prayer of Victory",
         "descr": ["Increases the Max HP of you and up to 6 allies within a 30m radius by ", " for 2 min."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -994,11 +994,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_sentinel_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_sentinel_g7.png"
         ],
-        "dependencies": ["03", "08"],
+        "dependencies": ["04", "09"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Prayer of Resilience",
         "descr": ["Restores HP by "],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -1015,11 +1015,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_recover_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_recover_g7.png"
         ],
-        "dependencies": ["05"],
+        "dependencies": ["06"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Shield of Faith",
         "descr": ["Blocks 1 Attack for 30 sec with shield defence."],
         "descrMod": ["A shield required"],
@@ -1030,11 +1030,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_invinsibleshield_g1.png"
         ],
-        "dependencies": ["25", "26"],
+        "dependencies": ["26", "27"],
         "ap": [19350]
       },
       {
-        "id": "28",
+        "id": "29",
         "name": "Threatening Taunt",
         "descr": ["Tauns a target within a 15m radius, increase its Enmity towards you, and decreasing its Attack Speed."],
         "lvl": [52, 55, 58, 61, 64],
@@ -1048,11 +1048,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_intimidation_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_intimidation_g5.png"
         ],
-        "dependencies": ["08", "05"],
+        "dependencies": ["09", "06"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "29",
+        "id": "30",
         "name": "Empyrean Providence",
         "descr": ["Creates a protective shield for 15 sec that has 100% chance of blocking damage each time the caster and up to 6 allies within a 30m radius receive attack. In addition, increase Shock Resist by 1000 (The protective shield block 50% of the damage received per attack)."],
         "lvl": [55],
@@ -1062,7 +1062,7 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/templar/live_kn_invinsibleprotect_g1.png"
         ],
-        "dependencies": ["27", "28"],
+        "dependencies": ["28", "29"],
         "ap": [76350]
       }
 
@@ -1073,7 +1073,7 @@
     "name": "cleric",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Blinding Lite",
         "descr": ["Blinds the target for 20 sec."],
         "lvl": [20],
@@ -1085,7 +1085,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Grace of the Empyrean Lord",
         "descr": ["For 12 sec. your MP level is preserved."],
         "lvl": [20],
@@ -1096,7 +1096,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Flash of Recovery",
         "descr": ["Heals a target within a 23m of you by "],
         "lvl": [25, 31, 37, 43, 49, 55, 61],
@@ -1115,7 +1115,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Festering Wound",
         "descr": ["Inflicts 42 magical water damage on a target within 15 meters, and reduces the effect of recovery magic it receives by 50% for 1 minute."],
         "lvl": [28],
@@ -1127,7 +1127,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Earth's Wrath",
         "descr": ["Inflicts ", " earth damage on the target within 25m radius, and deals periodic ", " gamage every 3 sec for 9 sec."],
         "lvl": [28, 34, 40, 46, 52, 58, 64],
@@ -1147,7 +1147,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Reverse Condition",
         "descr": ["Exchanges your current HP with your MP."],
         "lvl": [28],
@@ -1159,7 +1159,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Sage's Wisdom",
         "descr": ["Reduces casting time of all your magic skills by 50 for 10 sec."],
         "lvl": [34],
@@ -1172,7 +1172,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Splendor of Recovery",
         "descr": ["Restores HP of you and your group members within a 25m radius by "],
         "lvl": [40, 46, 52, 58, 64],
@@ -1190,7 +1190,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Splendor of Purification",
         "descr": ["Removes all debuffs from you and group members within a 25 meter radius."],
         "lvl": [44],
@@ -1203,7 +1203,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Noble Grace",
         "descr": ["Increases the effect of healing magic on group members within 25 meters of the caster by 50% for 15 seconds."],
         "lvl": [45],
@@ -1215,7 +1215,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Stability",
         "descr": ["Calms a target within 25 meters of you and up to 6 enemies within 20 meters of the target, reducing their Enmity towards you."],
         "lvl": [45, 51, 57, 63],
@@ -1231,7 +1231,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Sympathetic Heal",
         "descr": ["Can be user on an ally within 25m radius to restore", " HP."],
         "lvl": [48, 54, 60],
@@ -1247,7 +1247,7 @@
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Marchutan's Splendor",
         "name_ely": "Yustiel's Splendor",
         "descr": ["recovers the HP of a target within a 25m radius of you and up to 6 allies within a 25m radius of the target by",
@@ -1273,7 +1273,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Punishing Earth",
         "descr": ["inflicts", " earth damage to a target within a 25 meter radius."],
         "descrMod": ["Chain skill level 1"],
@@ -1289,7 +1289,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Saving Grace",
         "descr": ["Recovers the target's HP by ", " if the target's HP falls below 50% within one minute of casting."],
         "lvl": [58, 64],
@@ -1303,7 +1303,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Sacrificial Power",
         "descr": ["Increases your Magic Accuracy by 200 and Magic Boost by 200, but reduces Healing Boost by 250."],
         "descrMod": ["Active Skill"],
@@ -1316,7 +1316,7 @@
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Power Sprint",
         "descr": ["Increases your Speed by 30% for up to 10 sec."],
         "lvl": [62],
@@ -1329,7 +1329,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Retribution Lightning",
         "descr": ["Inflicts 1643 wind damage on a target within a 25m radius of you."],
         "lvl": [65],
@@ -1342,7 +1342,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Chain of Suffering",
         "descr": ["inflicts ", " earth damage to a target within a 25 meter radius, and deals periodic ", " damage every 12 seconds for 2 minutes. In addition, reduces the target's Magic Resist by 400. If the target dies while the skill is in effect, it is resurrected at its registered Kisk or Obelisk."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -1360,11 +1360,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_painlinks_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_painlinks_g7.png"
         ],
-        "dependencies": ["04", "01"],
+        "dependencies": ["02", "05"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Hand of Reincarnation",
         "descr": ["Grants a blessing to a group member within a 25 meter radius that lasts for 5 minutes. If the group member dies while the blessing is in effect, they are resurrected with their HP and MP at 50%."],
         "lvl": [45],
@@ -1375,11 +1375,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_revivehand_g1.png"
         ],
-        "dependencies": ["06"],
+        "dependencies": ["07"],
         "ap": [6875]
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Summon Noble Energy",
         "descr": ["summons a holy spirit near you. This spirit does not move from the summoned spot, and inflicts ", " long-range fire damage to a selected target within a 30 meter radius. This spirit vanishes after a while and consumes its HP with each attack."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -1403,11 +1403,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_light_eternalservent_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_light_eternalservent_g6.png"
         ],
-        "dependencies": ["18", "19"],
+        "dependencies": ["19", "20"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Enfeebling Burst",
         "descr": ["instantly inflicts ", " wind damage to a target within a 25 meter radius, and inflicts periodic ", " earth damage to it every 3 seconds for 27 seconds, while reducing its Attack by "],
         "lvl": [52, 55, 58, 61, 64],
@@ -1423,11 +1423,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_suffermemory_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_suffermemory_g5.png"
         ],
-        "dependencies": ["01", "06"],
+        "dependencies": ["02", "07"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Call Lightning",
         "descr": ["inflicts ", " magical wind damage to a target within a 25 meter radius"],
         "lvl": [55, 58, 61, 64],
@@ -1442,11 +1442,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_calllightning_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_calllightning_g4.png"
         ],
-        "dependencies": ["20", "21"],
+        "dependencies": ["21", "22"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Splendor of Rebirth",
         "descr": ["instantly recovers the HP of a target within a 25 meter radius by ", ", and recovers its HP by ", " every 3 seconds for 21 seconds. Physical Def also increases by 200."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -1464,11 +1464,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_regeneraitionshine_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_regeneraitionshine_g7.png"
         ],
-        "dependencies": ["02", "07"],
+        "dependencies": ["03", "08"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Shatter Memory",
         "descr": ["decreases the Enmity of a target within a 25 meter radius."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -1484,11 +1484,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_memoryblur_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_memoryblur_g7.png"
         ],
-        "dependencies": ["08"],
+        "dependencies": ["09"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Ripple of Purification",
         "descr": ["Removes up to 3 altered states cast on you and up to 6 allies within a 20 meter radius of you, and also recovers HP by "],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -1505,11 +1505,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_tranquility_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_tranquility_g6.png"
         ],
-        "dependencies": ["23", "24"],
+        "dependencies": ["24", "25"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Summon Healing Servant",
         "descr": ["summons a Healing Spirit near you. This spirit does not move from the summoned spot, and recovers the HP of you and your group members within a 30 meter radius by ", ". The spirit disappears after a specified time."],
         "lvl": [52, 55, 58, 61, 64],
@@ -1532,11 +1532,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_light_healingservent_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_light_healingservent_g5.png"
         ],
-        "dependencies": ["07", "08"],
+        "dependencies": ["08", "09"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Benevolence",
         "descr": ["Healing Boost increases by 350, but 10% more MP is consumed while the skill is in use."],
         "descrMod": ["Active Skill"],
@@ -1546,7 +1546,7 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/cleric/live_pr_healershand_g1.png"
         ],
-        "dependencies": ["25", "26"],
+        "dependencies": ["26", "27"],
         "ap": [76350]
       }
 
@@ -1557,7 +1557,7 @@
     "name": "chanter",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Healing Conduit",
         "descr": ["For 10 sec, HP of the caster and group members is restored by ", " whenever the target suffers damage. But only those who stay within 5m radius of the target can restore their HP."],
         "lvl": [20, 25, 31, 37, 43, 49, 55, 61],
@@ -1577,7 +1577,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Rage Spell",
         "descr": ["For 30 min., your Attack increases by 15%. But in the meantime, your healing skill casting time increases by 20%."],
         "lvl": [20],
@@ -1589,7 +1589,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Protective Ward",
         "descr": ["For 10 seconds, a protective shield is created that has a 100% chance of blocking damage whenever you are hit by Attack, and increases your resistance to Stumble. The protective shield blocks ", "% of the damage received per attack."],
         "lvl": [22, 28, 34, 40, 46, 52, 58, 64],
@@ -1609,7 +1609,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Promise of Aether",
         "descr": ["For 30m, you have a 5% chance of recovering MP with each attack."],
         "lvl": [25, 37, 49, 55, 61],
@@ -1625,7 +1625,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Word of Protection",
         "descr": ["Increases Evasion, Parry, Block by 100 and All Elemental Defense by 100 of your group members within a 20m radius of you for 15 sec."],
         "lvl": [28],
@@ -1637,7 +1637,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Binding Word",
         "descr": ["Binds and reduces the movement speed of a target within 25m for 5 sec."],
         "lvl": [28],
@@ -1649,7 +1649,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Word of Life",
         "descr": ["Heals all group members within 20m of you by ", "every 2 sec for 10 sec."],
         "lvl": [34, 40, 46, 52, 58, 64],
@@ -1667,7 +1667,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Word of Inspiration",
         "descr": ["Increases Magic Boost by 100, Accuracy by 100, and Attack by 20% of your group members within a 20m radius of you for 15 sec."],
         "lvl": [40],
@@ -1679,7 +1679,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Splash Swing",
         "descr": ["Upon successful parry, inflicts ", " damage to the target."],
         "lvl": [40, 46, 52, 58, 64],
@@ -1696,7 +1696,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Soul Lock",
         "descr": ["Inflicts ", " physical damage on a stunned or stumbled target within a 25m radius and binds it for 3 sec."],
         "lvl": [43, 55],
@@ -1710,7 +1710,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Enhancement Mantra",
         "descr": ["Increases Stun Resist of you and your group members within 20m radius of you by 500."],
         "descrMod": ["Active Skill"],
@@ -1721,7 +1721,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Recovery Spell",
         "descr": ["Heals a target within 25m of you by ", ", and additionally heals them by ", " every 2 sec for 6 sec."],
         "lvl": [45, 51, 57, 63],
@@ -1738,7 +1738,7 @@
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Soul Crush",
         "descr": ["Deals ", " physical damage to a stunned target and causes it to become Stumbled."],
         "lvl": [48, 54, 60],
@@ -1753,7 +1753,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Curtain of Aether",
         "name_ely": "Divine Curtain",
         "descr": ["Creates a shield for 15 sec that has a 100% chance of blocking damage each time you and up to 6 allies within a 20m radius receive all attacks (The shield blocks 60% of the damage you receive per attack until it blocks a total of ", " damage)."],
@@ -1776,7 +1776,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Hit Mantra",
         "descr": ["Increases Physical Crit by ", ", Crit Spell by ", ", Strike Resist by ", ", and Spell Resist by ", " for you and your group members within a 20m radius."],
         "descrMod": ["Active Skill"],
@@ -1790,7 +1790,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Rise",
         "descr": ["Remove your Stun, Knock Back, Stumble, Spin, and Aether's Hold states and increases your Stun, Knock Back, Stumble, Spin, and Aether's Hold Resists by 500 for 7sec."],
         "descrMod": ["Chain skill level 1"],
@@ -1803,7 +1803,7 @@
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Annihilation",
         "descr": ["Inflicts ", " Physical damage on the target. Multicast 3 times."],
         "descrMod": ["Chain skill level 1"],
@@ -1816,7 +1816,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Accelerator Cheer",
         "descr": ["Consumes your HP to increase an ally's Speed within 25m by 25% for 7 sec."],
         "lvl": [62],
@@ -1829,7 +1829,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Leaping Flash",
         "descr": ["Gathers energy, then deal downward blow to inflict 668-672 physical damage."],
         "lvl": [65],
@@ -1852,7 +1852,7 @@
         ]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Magic Recovery",
         "descr": ["Recovers the MP of the caster or a target within a 25m radius by "],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -1870,11 +1870,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_mpheal_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_mpheal_g7.png"
         ],
-        "dependencies": ["02", "07"],
+        "dependencies": ["03", "08"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500] 
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Blessing of Stone",
         "descr": ["Increases Maximum HP by 10%, All Elemental Defenses by 50, Physical Def by 10%, and Magic Suppression by 100 of a target within a 25m radius for 30 min."],
         "lvl": [45],
@@ -1884,11 +1884,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_blessprotect_g1.png"
         ],
-        "dependencies": ["04"],
+        "dependencies": ["05"],
         "ap": [6875] 
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Invincibility Mantra",
         "descr": ["Recovers the MP of the caster and group members within a 20m radius by 32, and also increases Physical Attack, Physical Def, and Magic Boost."],
         "descrMod": ["Active Skill"],
@@ -1897,11 +1897,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_chant_invincible_g1.png"
         ],
-        "dependencies": ["19", "20"],
+        "dependencies": ["20", "21"],
         "ap": [19350] 
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Healing Burst",
         "descr": ["Heals a target within 23m of you by "],
         "lvl": [52, 55, 58, 61, 64],
@@ -1917,11 +1917,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_surperiorheal_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_surperiorheal_g5.png"
         ],
-        "dependencies": ["04", "07"],
+        "dependencies": ["05", "08"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Elemental Screen",
         "descr": ["increases the Physical Def and All Elemental Defenses of you and up to 6 allies within a 20m radius by ", " and ", " for 30 sec."],
         "lvl": [55, 58, 61, 64],
@@ -1935,11 +1935,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_improvedbody_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_improvedbody_g4.png"
         ],
-        "dependencies": ["21", "22"],
+        "dependencies": ["22", "23"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Blessing of Wind",
         "descr": ["For 30 seconds, there is a 100% chance of inflicting additional ", " damage to the target each time you attack."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -1956,11 +1956,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_imbuepower_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_imbuepower_g7.png"
         ],
-        "dependencies": ["05", "08"],
+        "dependencies": ["06", "09"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500] 
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Stamina Restoration",
         "descr": ["Restores ", " HP and ", " MP."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -1977,11 +1977,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_chakra_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_chakra_g7.png"
         ],
-        "dependencies": ["01"],
+        "dependencies": ["02"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500] 
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Mountain Crash",
         "descr": ["inflicts ", " damage to a target within a 25m radius, and deals periodic ", " damage every 3 sec for 12 sec."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -1998,11 +1998,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_mountaincrash_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_mountaincrash_g6.png"
         ],
-        "dependencies": ["24", "25"],
+        "dependencies": ["25", "26"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Disorienting Blow",
         "descr": ["inflicts ", " physical damage on the target and puts it in the stumble state."],
         "lvl": [52, 55, 58, 61, 64],
@@ -2018,11 +2018,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_shockwave_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_shockwave_g5.png"
         ],
-        "dependencies": ["01", "05"],
+        "dependencies": ["02", "06"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "28",
+        "id": "29",
         "name": "Numbing Blow",
         "descr": ["inflicts ", " damage to the target, increasing the target's casting time by 50%, and decreasing the target's attack speed for 7 sec."],
         "lvl": [55, 58, 61, 64],
@@ -2036,7 +2036,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_slowcrash_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/chanter/live_ch_slowcrash_g4.png"
         ],
-        "dependencies": ["26", "27"],
+        "dependencies": ["27", "28"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]
@@ -2046,7 +2046,7 @@
     "name": "assassin",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Sigil Strike",
         "descr": ["inflicts ", " physical damage on the target and engraves a signet pattern on the target up to 3 level."],
         "descrMod": ["Chain skill level 2", "Rune Carve - Sigil Strike"],
@@ -2064,10 +2064,10 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_carvesignetchain_g7.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_carvesignetchain_g8.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_carvesignetchain_g9.png"
-            ]
+        ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Flurry",
         "descr": ["Your Atk Speed increases by 20% for 30 sec."],
         "lvl": [20],
@@ -2079,7 +2079,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Aethertwisting",
         "descr": ["You can resist 2 magical attacks. Lasts 8 sec."],
         "lvl": [22],
@@ -2090,7 +2090,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Ambush",
         "descr": ["Jumps behind a target's back within 20m to inflict ", " physical damage. May also stun it"],
         "lvl": [25, 31, 37, 43, 49, 55, 61],
@@ -2100,16 +2100,16 @@
         "shards": [75, 93, 111, 129, 147, 165, 244],
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g1.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g2.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g3.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g4.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g5.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g6.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g7.png"
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g2.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g3.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g4.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g5.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g6.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_blindside_g7.png"
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Rune Burst",
         "descr": ["Erases the rune carved on a target within a 10m radius up to the level of 5 and sets it to burst, damaging the target."],
         "descrMod": ["The amount of damage varies on the target's rune level."],
@@ -2119,16 +2119,16 @@
         "shards": [84, 102, 120, 138, 156, 174, 256],
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g1.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g2.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g3.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g4.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g5.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g6.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g7.png"
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g2.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g3.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g4.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g5.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g6.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_signetflare_g7.png"
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Apply Deadly Poison.",
         "descr": ["Uses 2 Scolopen Poison to apply poison to your weapon. For 2 min., there is a 2% chance of stunning the target with each attack."],
         "lvl": [28],
@@ -2139,7 +2139,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Oath of Accuracy",
         "descr": ["Increases your Accuracy by 500 and Magical Acc by 500 for 20 sec."],
         "lvl": [31],
@@ -2151,7 +2151,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Rune Knife",
         "descr": ["Deals ", " physical damage to a target within 11m, and carves runes up to level 3."],
         "lvl": [34, 40, 46, 52, 58, 64],
@@ -2161,15 +2161,15 @@
         "shards": [102, 120, 138, 156, 174, 256],
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g1.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g2.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g3.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g4.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g5.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g6.png"
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g2.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g3.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g4.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g5.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_signetwave_g6.png"
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Blinding Burst",
         "descr": ["Blinds the nearby enemies within a 15m radius of you for 15~25 sec."],
         "lvl": [37],
@@ -2181,7 +2181,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Eye of Wrath",
         "descr": ["Performs critical hit attacks up to 1 times for 10 sec. However, your Physical Crit decreases by 300."],
         "lvl": [37],
@@ -2193,7 +2193,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Flash of Speed",
         "descr": ["You move 10m forward instantly, and all immobilization and movement speed reduction debuffs are removed."],
         "lvl": [40],
@@ -2205,7 +2205,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Throw Shuriken",
         "descr": ["Deals ", " physical damage to a target immobilized in mid-air within 20m."],
         "lvl": [44, 50, 56],
@@ -2215,12 +2215,12 @@
         "shards": [132, 150, 168],
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_mirrorattack_g1.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_mirrorattack_g2.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_mirrorattack_g3.png"
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_mirrorattack_g2.png",
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/cbt_as_mirrorattack_g3.png"
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Shadow Walk",
         "descr": ["You enter advanced stealth for 5m. Your movement speed decreases by 20% while in effect. You may use buff magic and skills on yourself three times and still remain in stealth. Can't be used during battle."],
         "descrMod": ["Can't be used during battle."],
@@ -2233,7 +2233,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Deadly Abandon",
         "descr": ["Increases your Physical Attack by 20% for 3 min. while decreasing your Evasion by 200."],
         "lvl": [48],
@@ -2245,7 +2245,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Rune Swipe",
         "name_ely": "Divine Rune",
         "descr": ["Detonates up to 5 runes on a target within 20m dealing damage to the target and healing you for a portion of that damage."],
@@ -2262,7 +2262,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Venomous Strike",
         "descr": ["Chance to inflict ", " damage and poison the target for 15s. If used on the target's back, inflicts an additional ", " damage."],
         "lvl": [54, 60],
@@ -2272,11 +2272,11 @@
         "shards": [162, 180],
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_venomstab_g1.png",
-      "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_venomstab_g2.png"
+          "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_venomstab_g2.png"
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Shadowfall",
         "descr": ["Grabs a stunned target and inflicts 952-956 physical damage, causing them to stumble in the process."],
         "lvl": [58],
@@ -2289,7 +2289,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Slayer Form",
         "name_ely": "Slayer Form",
         "descr": ["You transform into a Slayer for 1 minute. While you are transformed, your Magic Resist, Magic Accuracy, and Maximum HP increase by 250, 300, and 3,000, respectively, and you recover MP quickly."],
@@ -2305,7 +2305,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Break Away",
         "descr": ["Removes any abnormal conditions related to movement and increases your resistance to Stuns, Knick Backs, Stumbles, Spins and Aerial Thrusts by 500 for 7 sec."],
         "lvl": [62],
@@ -2318,7 +2318,7 @@
       }
       ,
       {
-        "id": "19",
+        "id": "20",
         "name": "Searching Strike",
         "descr": ["Inflicts 1516-1520 physical damage on a target in a hide mode. This temporarily Stuns the target."],
         "lvl": [65],
@@ -2330,7 +2330,7 @@
         ]
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Beastly Scar",
         "descr": ["Inflicts", " to the target and engraves a singet rune on the target up to the level 5."],
         "descrMod": ["Chain skill level 4", "Beastly Thrash - Beastly Scar"],
@@ -2349,11 +2349,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_tigerassault_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_tigerassault_g7.png"
         ],
-        "dependencies": ["04", "07"],
+        "dependencies": ["05", "08"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Agonizing Slash",
         "descr": ["Inflicts ", " damage to the target. Decreases the target's Magic Resist by 200 and All Elemental Defences by 50 for 15 sec."],
         "descrMod": ["Chain skill level 2", "Swift Edge - Agonizing Slash"],
@@ -2371,11 +2371,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_windslash_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_windslash_g7.png"
         ],
-        "dependencies": ["09"],
+        "dependencies": ["10"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Agony Rune",
         "descr": ["Inflicts", " fire gamage on a target within 10m radius."],
         "descrMod": ["Chain skill level 2", "All Pain Rune - Agony Rune"],
@@ -2392,11 +2392,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_chainsignetburst_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_chainsignetburst_g6.png"
         ],
-        "dependencies": ["20", "21"],
+        "dependencies": ["21", "22"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Explosive Bust",
         "descr": ["Inflicts ", "fire damage on a targer within 10m radius of you, and aslo stuns the target."],
         "lvl": [52, 55, 58, 61, 64],
@@ -2419,11 +2419,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_stunburst_1_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_stunburst_1_g5.png"
         ],
-        "dependencies": ["07", "09"],
+        "dependencies": ["08", "10"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Signet Silence",
         "descr": ["Ignite a rune carved on a target within a 10m radius up to level 5, causing the rune to explode inflicting damage and silencing the target for 30 sec."],
         "descrMod": ["The chance of silencing the target varies depending on the level of the rune carved on the target."],
@@ -2436,11 +2436,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_silentburst_g1.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_silentburst_g2.png"
         ],
-        "dependencies": ["22", "23"],
+        "dependencies": ["23", "24"],
         "ap": [76350, 91800]
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Apply Lethal venom",
         "descr": ["Uses 5 Scolopen Poison to apply poison to your weapon. For 30 sec, there is a 100% chance of inflicting additional ", " damage to the target with each attack."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -2457,11 +2457,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_explosionpoison_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_explosionpoison_g7.png"
         ],
-        "dependencies": ["05", "06"],
+        "dependencies": ["06", "07"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Lightning Slash",
         "descr": ["Inflicts ", " damage to the target. The target's Magic Acc decreases by 200 for 30 sec."],
         "descrMod": ["Chain skill level 2", "Swift Edge - Lightning Slash"],
@@ -2480,11 +2480,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_flashslash_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_flashslash_g7.png"
         ],
-        "dependencies": ["08"],
+        "dependencies": ["09"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Dash and Slash",
         "descr": ["Inflicts ", " damage by charging the target within 20m radius."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -2500,11 +2500,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_assaultslash_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_assaultslash_g6.png"
         ],
-        "dependencies": ["25", "26"],
+        "dependencies": ["26", "27"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "28",
+        "id": "29",
         "name": "Sensory Boost",
         "descr": ["Increases Evasion by 800, Magic Resist by 500, and Strike Resist by 100 for 12 sec."],
         "lvl": [52],
@@ -2514,11 +2514,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_senseboost_g1.png"
         ],
-        "dependencies": ["05", "08"],
+        "dependencies": ["06", "09"],
         "ap": [39400]
       },
       {
-        "id": "29",
+        "id": "30",
         "name": "Quickening Doom",
         "descr": ["Inflicts ", " damage to the target, and inflicts additional ", " damage and mey stun the target if it is poisoned."],
         "lvl": [55, 58, 61, 64],
@@ -2532,7 +2532,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_venomslash_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/assassin/live_as_venomslash_g4.png"
         ],
-        "dependencies": ["27", "28"],
+        "dependencies": ["28", "29"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]
@@ -2542,7 +2542,7 @@
     "name": "ranger",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Sleep Arrow",
         "descr": ["Forces a target within 15m to fall asleep for 12 sec. However, the target's All Elemental Defenses increases by 500."],
         "lvl": [20],
@@ -2555,7 +2555,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Arrow Deluge",
         "descr": ["Inflicts ", " physical damage on the target within 15m radius of you and up to 3 enemies within a 5m radius of the target."],
         "lvl": [20, 25, 31, 37, 43, 49, 55, 61],
@@ -2575,7 +2575,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Retreating Slash",
         "descr": ["Inflicts 16-20 physical damage on the target, and you are pushed back 25m. The target is sometimes stunned for 3 sec."],
         "lvl": [22],
@@ -2587,7 +2587,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Silence Arrow",
         "descr": ["Fires an arrow at a target within 25m to inflict ", " physical damage, end silenses the target for 6-8 sec."],
         "lvl": [25, 31, 37, 42, 48, 54, 60],
@@ -2607,7 +2607,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Bow of Blessing",
         "descr": ["Increases Attack of Bow by 20% for 1 min."],
         "lvl": [28],
@@ -2619,7 +2619,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Snare Trap",
         "descr": ["Uses 3 Tripeed seed to set up a single trap around you. The trap remains effective for 60 sec. When an enemy approaches within a 5m radius, it explodes to immobilize the enemy in mid-air."],
         "lvl": [28, 34, 40, 46, 52, 58],
@@ -2645,7 +2645,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Trap of Clearvoyance",
         "descr": ["Sets up a ranged trap in a spot within a 15m spot. The trap remains effective for 60 sec. When an enemy approaches wihin a 10m radius, it explodes to break the enemy's hiding status."],
         "lvl": [31],
@@ -2660,7 +2660,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Breath of Nature",
         "descr": ["Increases your HP Regeneration and MP Regeneration by", " and", " respectively for 5 min."],
         "lvl": [34, 40, 46, 52, 58],
@@ -2678,7 +2678,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Sniper Stance",
         "descr": ["Attack range of Bow increses by 10%. You move at very low speed while the skill is in effect."],
         "descrMod": ["Active skill"],
@@ -2690,7 +2690,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Trap of Slowing",
         "descr": ["Uses 3 Tripeed seed to set a trap. The trap lasts for 60 sec, and when enemy aproashes within 5m radius, it explodes, immibilizes enemy and reducing its Evasion"],
         "lvl": [37, 43, 49, 55, 61],
@@ -2712,7 +2712,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Focused Shots",
         "descr": ["Boost your physical Attack by 30% for your next 5 attacks within 1 min. Decreases your Defence by 50%."],
         "lvl": [44],
@@ -2725,7 +2725,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Bestial Fury",
         "descr": ["For 1 min., the Attack range of Bows decreases by 10m while Attack increses by 50% and Attack Speed increases by 20%"],
         "lvl": [45],
@@ -2737,7 +2737,7 @@
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Keen Cleverness",
         "descr": ["For 1 min., there is a 100% chance of recovering your MP with each attack."],
         "lvl": [48, 60],
@@ -2749,7 +2749,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Nature's Resolve",
         "descr": ["Removes 1 physical debuff on you and enables you to resist 2 magical attacks within 10 sec."],
         "lvl": [48],
@@ -2760,7 +2760,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Deadly Arrow",
         "descr": ["Fires an arrow at a target within 25m to inflict ", " physical pamage. This attack has low accuracy"],
         "lvl": [50],
@@ -2773,7 +2773,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Call Gryphu",
         "descr": ["Summons 6 Gryphu, which inflicts damage on enemies within 25m radius. Each time Gryphu attacks a target, the target is slowed"],
         "lvl": [54, 60],
@@ -2791,7 +2791,7 @@
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Skybound Trap",
         "descr": ["Sets up a ranged trap around you. The trap remains active for 60 sec and inflicts damage on up to 4 enemies once an anemy gets within 10m. Those struck by the trap are aslo immobilised in mid-air."],
         "lvl": [58, 65],
@@ -2804,7 +2804,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Misery Shot",
         "descr": ["Inflicts 358-362 physical damage on a target that is stunned, knocked back, stumbled, spun, and immobilised in mid-air within a 25m radius."],
         "lvl": [60],
@@ -2816,7 +2816,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Feint",
         "descr": ["Removes any Altered State related to movement and teleports you forward 10m."],
         "lvl": [62],
@@ -2828,7 +2828,7 @@
         ]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Dilation Arrow",
         "descr": ["Inflicts 280-284 physical damage on a target within 25m. Lengthens target magic casting time by 100% for 6-8 sec. Reduses target's Attack Speed."],
         "lvl": [65],
@@ -2841,7 +2841,7 @@
         ]
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Gale Arrow",
         "descr": ["Inflicts ", " damage on a target within 25m radius."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -2858,11 +2858,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_movingshot_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_movingshot_g7.png"
         ],
-        "dependencies": ["02", "07"],
+        "dependencies": ["03", "08"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Speed of the Wind",
         "descr": ["Inreases speed by 18%, Crit Strike by 100, and the Attack of Bow by 10% for 1 min."],
         "lvl": [45],
@@ -2872,11 +2872,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_panthermove_g1.png"
         ],
-        "dependencies": ["09"],
+        "dependencies": ["10"],
         "ap": [6875]
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Heart Shot",
         "descr": ["Inflicts ", " damage on a target within 25m radius with higher chance of inflicting a critical hit."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -2892,11 +2892,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_shadowarrow_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_shadowarrow_g6.png"
         ],
-        "dependencies": ["20", "21"],
+        "dependencies": ["21", "22"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Blazing Trap",
         "descr": ["Uses 20 Tripeed Seeds to set a trap. The trap lasts for 60 sec, and when enemy aproashes, it explodes, inflicting damage on one nemy who wanders within 5m of it."],
         "lvl": [52, 55, 58, 61, 64],
@@ -2916,11 +2916,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_light_blazingtrap_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_light_blazingtrap_g5.png"
         ],
-        "dependencies": ["07", "09"],
+        "dependencies": ["08", "10"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Lightning Arrow",
         "descr": ["Fires an arrow that briefly stun and inflicts ", " damage on a target wihin 15m radius."],
         "lvl": [55, 58, 61, 64],
@@ -2934,11 +2934,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_lightningshot_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_lightningshot_g4.png"
         ],
-        "dependencies": ["22", "23"],
+        "dependencies": ["23", "24"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Explosive Arrow",
         "descr": ["Deals ", " damage on a target within 25m radius"],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -2956,11 +2956,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_explosionarrow_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_explosionarrow_g7.png"
         ],
-        "dependencies": ["04", "10"],
+        "dependencies": ["05", "11"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Hunter's Might",
         "descr": ["Performs critical hit attack up to 2 times for 10 sec. In addition, Attack range of your Bow is redused by 5m."],
         "lvl": [45],
@@ -2976,11 +2976,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_huntermind_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_huntermind_g1.png"
         ],
-        "dependencies": ["01"],
+        "dependencies": ["02"],
         "ap": [6875]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Lethal Arrow",
         "descr": ["Inflicts ", " damage on a target within 25m radius"],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -2997,11 +2997,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/e_ra_massexplosionarrow_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/e_ra_massexplosionarrow_g6.png"
         ],
-        "dependencies": ["25", "26"],
+        "dependencies": ["26", "27"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "28",
+        "id": "29",
         "name": "Sharpen Arrows",
         "descr": ["Attack of Bow increses by 10%, but 10% more MP consumed while the skill is in use."],
         "descrMod": ["Active Skill"],
@@ -3011,11 +3011,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_trackermind_g1.png"
         ],
-        "dependencies": ["01", "10"],
+        "dependencies": ["02", "11"],
         "ap": [39400]
       },
       {
-        "id": "29",
+        "id": "30",
         "name": "Agonizing Arrow",
         "descr": ["Inflicts ", " damage on a target within 25m radius and poisons it for 1 min."],
         "lvl": [55, 58, 61, 64],
@@ -3030,7 +3030,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_painarrow_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/ranger/live_ra_painarrow_g4.png"
         ],
-        "dependencies": ["27", "28"],
+        "dependencies": ["28", "29"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]
@@ -3040,7 +3040,7 @@
     "name": "sorcerer",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Lumiel's Wisdom",
         "descr": ["For 15 sec, you can use skills with only 50% of the required mana."],
         "lvl": [20],
@@ -3051,7 +3051,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Curse of Root",
         "descr": ["Transform the target into a tree for 20 sec. The transformed target cannot move or act< and its All Elemental Defence increses. Once the target is attacked, effect dissapeares immediately"],
         "lvl": [20],
@@ -3064,7 +3064,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Ice Sheet",
         "descr": ["Inflicts water damage on up to 6 enemies within a selected area and reduses their speed for 20 sec."],
         "lvl": [25, 37, 49, 55, 61],
@@ -3087,7 +3087,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Zikel's Wisdom",
         "descr": ["Increases your Magic Boost by 500 for 15 sec."],
         "lvl": [28],
@@ -3099,7 +3099,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Curse of Weakness",
         "descr": ["Curse a target within 25m. For 1 min., each time they use magical skills, they take magic damage equal to ", "% of their Max HP. This damage will not exceed "],
         "lvl": [28, 40, 52, 64],
@@ -3115,7 +3115,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Wind Cut Down",
         "descr": ["Inflicts ", " wind damage on a target within a 25m radius of you and causes it to bleed for 6 sec"],
         "lvl": [31, 37, 43, 49, 55, 61],
@@ -3134,7 +3134,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Fire Burst",
         "descr": ["Inflicts ", " fire damage on a target within a 25m radius of you and on up to 6 enemies within a 5m radius of the target."],
         "lvl": [34, 46, 52, 58],
@@ -3151,7 +3151,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Vaizel's Wisdom",
         "descr": ["Spell casting time decreased by 25% for 15 sec."],
         "lvl": [27],
@@ -3163,7 +3163,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Summon Whirlwind",
         "descr": ["Summon a tempest that remains on a spot within a 15m of you for 3 sec. It inflicts continuous wind damage on up to 6 enemies within 19m radius and temporarily stuns them."],
         "lvl": [43, 55],
@@ -3176,7 +3176,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Boon of Quickness",
         "name_ely": "Boon of Strength",
         "descr": ["Reduces casting time of all your magic skills by 50 for 10 sec."],
@@ -3193,7 +3193,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Ice Harpoon",
         "descr": ["Deals ", " water damage on a target within 25m of you."],
         "lvl": [45, 51, 57, 63],
@@ -3210,7 +3210,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Barrier of Severance",
         "descr": ["Create a shield that blocks 20000 damage for 8 sec each time caster receives attack. The caster is stunned."],
         "lvl": [48],
@@ -3223,7 +3223,7 @@
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Lava Tempest",
         "name_ely": "Big Magma Erruption",
         "descr": ["Deals ", " fire damage on a target within 25m and up to 6 enemies within a 10m radius of target after 4 sec."],
@@ -3245,7 +3245,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Exchange Vitality",
         "descr": ["Exchange your current HP with your MP."],
         "lvl": [54],
@@ -3256,7 +3256,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Absolute Zero",
         "descr": ["Freeezes and stuns a targets within 15m, preverted them from being attacked for 3-5 sec."],
         "lvl": [58],
@@ -3268,7 +3268,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Storm Strike",
         "descr": ["Inflicts 6012 wind damage on a target within 25m."],
         "lvl": [60],
@@ -3281,7 +3281,7 @@
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Wake up",
         "descr": ["Awakens any sleeping target within a 25m radius of you."],
         "lvl": [62],
@@ -3293,7 +3293,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Somnolence",
         "descr": ["Forces a target within 25m to sleep for 5 sec. Increases the target's All Elemental Defenses."],
         "lvl": [65],
@@ -3317,7 +3317,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Illusion Storm",
         "descr": ["Inflicts ", " fire damage on up to 6 targets within 10m radius. Targets are stunned for 3 sec."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -3334,11 +3334,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_illusionstorm_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_illusionstorm_g7.png"
         ],
-        "dependencies": ["01", "04"],
+        "dependencies": ["02", "05"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Illusion",
         "descr": ["Removes one abnormal physical condition, and allows the caster to evade 2 physical attacks for 10 sec."],
         "lvl": [45],
@@ -3348,11 +3348,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_illusiondance_g1.png"
         ],
-        "dependencies": ["07"],
+        "dependencies": ["08"],
         "ap": [6875]
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Sleeping Storm",
         "descr": ["Forces a target within a 25m radius and up to 6 enemies within a 12m radius of the target to fall asleep for 20 sec and increases their All Elemental Defences."],
         "lvl": [50],
@@ -3363,11 +3363,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_sleepingstorm_g1.png"
         ],
-        "dependencies": ["18", "19"],
+        "dependencies": ["19", "20"],
         "ap": [19350]
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Elemental Ward",
         "descr": ["Increases All Elemental Defense and Magic Resist by 300 for 1 min."],
         "lvl": [52],
@@ -3377,11 +3377,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_elementalseal_g1.png"
         ],
-        "dependencies": ["04", "07"],
+        "dependencies": ["05", "08"],
         "ap": [39400]
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Wintry Armor",
         "descr": ["If an enemy within a 5m radius attacks you, you reflect", " damage to the enemy for 30 sec and decrease its movement and attack speed for 2 sec."],
         "lvl": [55, 58, 61, 64],
@@ -3395,11 +3395,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_icyshield_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_icyshield_g4.png"
         ],
-        "dependencies": ["20", "21"],
+        "dependencies": ["21", "22"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Summon Rock",
         "descr": ["Inflicts ", " earth damage on a target within a 25m radius."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -3416,11 +3416,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_rockfall_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_rockfall_g7.png"
         ],
-        "dependencies": ["02", "05"],
+        "dependencies": ["03", "06"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Supplication of Focus",
         "descr": ["Increases Magical Acc by 1000 for 20 sec."],
         "lvl": [45],
@@ -3430,11 +3430,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_soulgain_g1.png"
         ],
-        "dependencies": ["03"],
+        "dependencies": ["04"],
         "ap": [6875]
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Flame Spray",
         "descr": ["Inflicts ", " fire damage on a target within a 25m radius."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -3451,11 +3451,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_flamestrike_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_flamestrike_g6.png"
         ],
-        "dependencies": ["23", "24"],
+        "dependencies": ["24", "25"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Arcane Thunderbolt",
         "descr": ["Inflicts ", " wind damage on a target within a 25m radius, and stuns the target for a short time."],
         "lvl": [52, 55, 58, 61, 64],
@@ -3470,11 +3470,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_stormshock_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_stormshock_g5.png"
         ],
-        "dependencies": ["02", "03"],
+        "dependencies": ["03", "04"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Glacial Shard",
         "descr": ["Deals ", " water damage on a target within 25m of you."],
         "lvl": [55, 58, 61, 64],
@@ -3489,7 +3489,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_zeropoint_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/sorcerer/live_wi_zeropoint_g4.png"
         ],
-        "dependencies": ["25", "26"],
+        "dependencies": ["26", "27"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]
@@ -3499,7 +3499,7 @@
     "name": "spiritmaster",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Body Root",
         "descr": ["Binds a target within 25m for 6-8 sec."],
         "lvl": [20],
@@ -3512,7 +3512,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Absorb Vitality",
         "descr": ["Deals ", " fire damage on a tatget within 25 of you, and absorbs ", "% of the damage as HP."],
         "lvl": [20, 25, 31, 37, 41, 47, 53, 59, 65],
@@ -3534,7 +3534,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Enmity Swap",
         "descr": ["You draw the Enmity of the target that is currently focused on your spirit."],
         "lvl": [22],
@@ -3546,7 +3546,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Ignite Aether",
         "descr": ["Removes up to 3 buuf from the target, inflicts ", " damage for the first buff removed, and inflicts a further ", " damage per each additional buff removed."],
         "descrMod": ["Chain skill level 1"],
@@ -3566,7 +3566,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Sigil of Silence",
         "descr": ["Silences a target within 25m for 6-8 sec."],
         "lvl": [28],
@@ -3579,7 +3579,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Blessing of Fire",
         "descr": ["For 1 min., there is a 100% chance of the caster and the group members within a 20m radius inflicting additional ", " damage on enemies with every attack."],
         "lvl": [31, 37, 43, 49, 55, 61],
@@ -3598,7 +3598,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Weaken Spirit",
         "descr": ["Inflicts ", " wind damage on a target whithin 25m, and deals additional ", " damage if the target is a spirit."],
         "lvl": [34, 40, 46, 52, 58, 64],
@@ -3617,7 +3617,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Spirit Wall of Protection",
         "descr": ["Commands the spirit to use its magical buff on up to 6 allies within a 15m radius."],
         "descrMod": ["Water Spirit: Increases Magical Accuracy and Magical Resistance", "Wind Spirit: Increases Accuracy and Evasion Rate",
@@ -3633,7 +3633,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Fear Shriek",
         "descr": ["Transforms enemies within a 15m radius of you into Fire Spirits for 11-18 sec, and the target becomes afraid and its Speed is reduced."],
         "lvl": [37],
@@ -3646,7 +3646,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Transference",
         "descr": ["Spends 10% of own HP to restore the MP of a targeted ally within 25m by "],
         "value": [[3500, 4000, 4250]],
@@ -3663,7 +3663,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Cloacking Word",
         "descr": ["Put group members within 20m of you into a basic stealth for 30 sec, during which they cannot move."],
         "descrMod": ["Unusable during battle."],
@@ -3677,7 +3677,7 @@
         ]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Spirit Recovery",
         "descr": ["Recovers your spirit's HP by 100%."],
         "lvl": [44],
@@ -3689,7 +3689,7 @@
         ]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Cyclone of Wrath",
         "descr": ["Deals ", " wind damage on a target within 25m of you, and deals a further ", " damage every 2 sec for 8 sec."],
         "lvl": [45, 51, 57, 63],
@@ -3706,7 +3706,7 @@
         ]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Spirit Substitution",
         "descr": ["Comands the spirit to use its protection magic. The spirit receives all the damage in place of the caster."],
         "lvl": [48],
@@ -3717,7 +3717,7 @@
         ]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Spirit Explosion",
         "name_ely": "Spirit Burn-to-Ashes",
         "descr": ["Comands the spirit to consume its HP in a magical elemental attack dealing area effect damage. It deals additional damage if the target is an Elyos or a Balaur"],
@@ -3739,7 +3739,7 @@
         ]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Withering Gloom",
         "descr": ["Reduces the maximum HP and maximum MP of a target within a 25m radius by ", " each for 1 min."],
         "descrMod": ["It can be removed with a Despel Magical Debuff Skill."],
@@ -3755,7 +3755,7 @@
         ]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Soul Torrent",
         "descr": ["Inflicts 445 water damage on a target within 25m."],
         "descrMod": ["Multicast 5 times"],
@@ -3768,7 +3768,7 @@
         ]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Sympathetic Mind",
         "descr": ["Increases your Magic Boost, Magic Acc and Magic Suppresion by 200, 200 and 200 respectively for 2 min."],
         "descrMod": ["Multicast 5 times"],
@@ -3781,7 +3781,7 @@
         ]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Earthen Call",
         "descr": ["Removes movement-related Altered States and increses resistance to abnormal movement conditions by 800 for 10 sec."],
         "descrMod": ["Multicast 5 times"],
@@ -3794,7 +3794,7 @@
         ]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Command: Bodyguard",
         "descr": ["Orders the spirit to protect a target within 20m. The spirit casts protective shield over the target that lasts for 20 sec."],
         "lvl": [65],
@@ -3805,7 +3805,7 @@
         ]
       },
       {
-        "id": "20",
+        "id": "21",
         "name": "Shackle of Vulnerability",
         "descr": ["Reduces the Attack Speed of target within 25m radius for 30 sec. Increases targets casting speed of magical skills and decreases All Elemental Defences by 200. This Effect can be removed with Dispel MAgical Buff or Dispel Magical Debuff skills."],
         "lvl": [45],
@@ -3816,11 +3816,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_enfeeblement_g1.png"
         ],
-        "dependencies": ["00", "04"],
+        "dependencies": ["01", "05"],
         "ap": [6875]
       },
       {
-        "id": "21",
+        "id": "22",
         "name": "Magic Implosion",
         "descr": ["Removes up to 3 buuf from the target, inflicts ", " damage for the first buff removed, and inflicts a further ", " damage per each additional buff removed. The target also receives ",
           " damage every 3 sec for 30 sec. It can be removed with Dispel MAgical Buff or Dispel Magical Debuff skills."],
@@ -3839,11 +3839,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_manareverse_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_manareverse_g7.png"
         ],
-        "dependencies": ["03"],
+        "dependencies": ["04"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "22",
+        "id": "23",
         "name": "Infernal Pain",
         "descr": ["Inflicts ", " earth damage on a target within a 25m radius, and deals periodic ", " damage every 3 sec for 12 sec."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -3860,11 +3860,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_hellpain_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_hellpain_g6.png"
         ],
-        "dependencies": ["20", "21"],
+        "dependencies": ["21", "22"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "23",
+        "id": "24",
         "name": "Hand of Torpor",
         "descr": ["Forces a target within 15m to fall asleep for 20 sec and increases its All Elemental Defenses."],
         "lvl": [52],
@@ -3875,11 +3875,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_sleepingspirit_g1.png"
         ],
-        "dependencies": ["03", "04"],
+        "dependencies": ["04", "05"],
         "ap": [39400]
       },
       {
-        "id": "24",
+        "id": "25",
         "name": "Infernal Blight",
         "descr": ["Decreases defence by ", ", All Elemental Defences by ", ", and Magic Resist by ", " for a target within a 25m radius for 1 min."],
         "lvl": [55, 58, 61, 64],
@@ -3894,11 +3894,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_hellcurse_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_hellcurse_g4.png"
         ],
-        "dependencies": ["22", "23"],
+        "dependencies": ["23", "24"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "25",
+        "id": "26",
         "name": "Armor Spirit",
         "descr": ["Increases your spirit Physical and Magical attack by 40%, Physical and All Elemental Defences by 10%, Magic Boost by 400, Speed by 30%, Magical Accuracy by 1000, and Accuracy by 1000 if it is within a 25m radius for 5 min."],
         "lvl": [45],
@@ -3909,11 +3909,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_enchantarmor_g1.png"
         ],
-        "dependencies": ["06", "11"],
+        "dependencies": ["07", "12"],
         "ap": [6875]
       },
       {
-        "id": "26",
+        "id": "27",
         "name": "Summon Cyclone Servant",
         "descr": ["Summons 7 Energies of Wind to inflict wind damage on a target within a 25m radius."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -3939,11 +3939,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_light_slave_stormservent_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_light_slave_stormservent_g7.png"
         ],
-        "dependencies": ["02"],
+        "dependencies": ["03"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "27",
+        "id": "28",
         "name": "Spirit Ruinous Offensive",
         "descr": ["Commands the spirit to attack. Each spirit has an element-specific strike skill."],
         "descrMod": ["Water Spirit: Magical Water Strike", "Wind Spirit: Magical Wind Strike", "Earth Spirit: Magical Earth Strike, Reduced Movement Speed",
@@ -3956,11 +3956,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_stigma_order_destructimpact_g1.png"
         ],
-        "dependencies": ["25", "26"],
+        "dependencies": ["26", "27"],
         "ap": [19350]
       },
       {
-        "id": "28",
+        "id": "29",
         "name": "Healing Spirit",
         "descr": ["Recovers the HP of a spirit within a 15m radius by 100% and removes all magical debuffs from it."],
         "lvl": [52],
@@ -3970,11 +3970,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_elementalcharge_g1.png"
         ],
-        "dependencies": ["02", "06"],
+        "dependencies": ["03", "07"],
         "ap": [39400]
       },
       {
-        "id": "29",
+        "id": "30",
         "name": "Spirit Hypnosis",
         "descr": ["Commands the spirit to use its Altered State skills. The spirit possesses the target and puts it into sleep, reducing Attack Speed and increasing All ELemental Defenses of the target defore disappearing."],
         "lvl": [55],
@@ -3984,7 +3984,7 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/spiritmaster/live_el_order_omen_g1.png"
         ],
-        "dependencies": ["27", "28"],
+        "dependencies": ["28", "29"],
         "ap": [76350]
       }
     ]
@@ -3994,7 +3994,7 @@
     "name": "songweaver",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Freestyle",
         "descr": ["Forces a target within a 25m radius of you to fall asleep for 15 sec and increases the target's All Elemental Defenses."],
         "lvl": [20],
@@ -4007,7 +4007,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Hymn of Rejuvenation",
         "descr": ["Restores the HP of a target within a 25m radius of you by ", " every 2 sec for 20 sec."],
         "lvl": [25, 31, 37, 43, 49, 55, 61],
@@ -4025,7 +4025,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Cherubim Call",
         "descr": ["Ressurect a target within 25m of you."],
         "lvl": [28],
@@ -4039,7 +4039,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Half-Stop",
         "descr": ["Removes up to 2 enchantments from the target."],
         "lvl": [37],
@@ -4051,7 +4051,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Composer's Bar",
         "descr": ["Binds a target for 5 sec."],
         "lvl": [40],
@@ -4063,7 +4063,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Stinging Note",
         "descr": ["Inflicts ", " earth damage on a target within a 25m radius of you and decreases the target's Magic Resist by ", " for 8 sec."],
         "lvl": [43, 49, 55, 61],
@@ -4079,7 +4079,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Ode of Friendship",
         "descr": ["Decreases the target's Enmity towards you."],
         "lvl": [54],
@@ -4091,7 +4091,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Mvt. 1: Spring",
         "descr": ["Increases Shock Resist by 800 for 12 sec. You suffer less damage when attacked by another player."],
         "lvl": [62],
@@ -4103,7 +4103,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Mvt. 4: Winter",
         "descr": ["Creates a protective shield whit blocks 3000 damage for 30 sec while under attack. Restores 141 HP and MP evety 3 sec for 30 sec."],
         "lvl": [65],
@@ -4115,7 +4115,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Resonant Hymn",
         "descr": ["Restores the target's MP by ", " within 25m of you."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -4142,11 +4142,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofserenity_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofserenity_g7.png"
         ],
-        "dependencies": ["04", "01"],
+        "dependencies": ["05", "02"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Exultarion",
         "descr": ["Boosts your Healing Boost by 300."],
         "lvl": [45],
@@ -4155,11 +4155,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_playingstyleschangea_g1.png"
         ],
-        "dependencies": ["02"],
+        "dependencies": ["03"],
         "ap": [6875]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Soothing Hymn",
         "descr": ["Reastores the HP of a target within a 25m radius by"],
         "lvl": [53, 56, 59, 62, 65],
@@ -4185,11 +4185,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofmassheal_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofmassheal_g5.png"
         ],
-        "dependencies": ["09", "10"],
+        "dependencies": ["10", "11"],
         "ap": [42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Mvt. : Autumn",
         "descr": ["Increases your Stumble Resist and Knock Back Resist by 300, And your Silence Resist by 500 for 30 min."],
         "lvl": [52],
@@ -4199,11 +4199,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songoffirm_g1.png"
         ],
-        "dependencies": ["01", "02"],
+        "dependencies": ["02", "03"],
         "ap": [39400]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Chorus of Blessing",
         "descr": ["Removes two abnormal condition on you and and any group members within a 25m radius of you and restores ", " HP every 2 sec for 6 sec."],
         "lvl": [55, 58, 61, 64],
@@ -4217,11 +4217,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofbless_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofbless_g4.png"
         ],
-        "dependencies": ["11", "12"],
+        "dependencies": ["12", "13"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Paean of Pain",
         "descr": ["Inflicts ", " damage on a target within a 25m radius every 2 sec for 8 sec. Inflicts an additional ", " damage 8 sec later."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -4239,11 +4239,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofpain_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofpain_g7.png"
         ],
-        "dependencies": ["00", "03"],
+        "dependencies": ["01", "04"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Impassion",
         "descr": ["Boost your Bagic Boost by 150."],
         "lvl": [45],
@@ -4252,11 +4252,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_playingstyleschangeb_g1.png"
         ],
-        "dependencies": ["06"],
+        "dependencies": ["07"],
         "ap": [6875]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Staggered Rest",
         "descr": ["Paralizes a target within a 25m radis of you for 5 sec after an 8 sec delay."],
         "lvl": [50],
@@ -4267,11 +4267,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_delayparalyze_g1.png"
         ],
-        "dependencies": ["14", "15"],
+        "dependencies": ["15", "16"],
         "ap": [19350]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Mvt. 2: Summer",
         "descr": ["Increases your Fear Resist by 650, and your Sleep Resist and Paralyzis Resist by 500 for 30 min."],
         "lvl": [50],
@@ -4281,11 +4281,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofbrave_g1.png"
         ],
-        "dependencies": ["00", "05"],
+        "dependencies": ["01", "06"],
         "ap": [19350]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Treble Cleave",
         "descr": ["Inflicts ", " wind damage on a target within a 25m radius of you."],
         "lvl": [55, 58, 61, 64],
@@ -4299,7 +4299,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofgale_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/songweaver/live_ba_songofgale_g4.png"
         ],
-        "dependencies": ["16", "17"],
+        "dependencies": ["17", "18"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]
@@ -4309,7 +4309,7 @@
     "name": "gunslinger",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Stopping Power",
         "descr": ["Increases a magical attack's effect by 10%, increases attack power against PCs for 5 attacks or 30 sec."],
         "lvl": [20],
@@ -4321,7 +4321,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Nature Favor",
         "descr": ["Increases HP regeneration and MP regeneration by ", " and ", ", respectively, for 5 min."],
         "lvl": [20, 25, 31, 37, 43, 49, 55, 61],
@@ -4342,7 +4342,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Quieting Gale",
         "descr": ["Inflicts ", " wind damage on a target within 20m. Silences the target for 5-6 sec."],
         "lvl": [28, 34, 40, 46, 52, 58, 64],
@@ -4361,7 +4361,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Frozen Blitz",
         "descr": ["Inflicts ", " water damage on a target within 25m. Innobikizes the target for 8 sec."],
         "lvl": [35, 41, 47, 53, 59, 65],
@@ -4380,7 +4380,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Blazing Bombardment",
         "descr": ["Inflicts ", " fire damage on a target within 25m. Decreases the target's Fire Resist by ", " for 10 sec."],
         "lvl": [36, 42, 48, 54, 60],
@@ -4410,7 +4410,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Power Grab",
         "descr": ["Inflicts ", " water damage on a target within 20m. Takes 100% of the inflicred damage as HP and 50% of the inflicted damage as MP."],
         "lvl": [40, 46, 52, 58, 64],
@@ -4427,7 +4427,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Sighting",
         "descr": ["Increases your Magical Acc by 300 for 20 sec."],
         "lvl": [54],
@@ -4439,7 +4439,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Stable Stance",
         "descr": ["Boosts Attack Speed by 10%."],
         "descrMod": ["Active Skill"],
@@ -4453,7 +4453,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Survival Instinct",
         "descr": ["Removes 2 physical effects on you. Increases your Speed by 30% for 10 sec."],
         "lvl": [62],
@@ -4465,7 +4465,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Missile Guide",
         "descr": ["Inflicts 2464 water damage on a target within 25m."],
         "lvl": [65],
@@ -4488,7 +4488,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Fiery Blast",
         "descr": ["Inflicts ", " fire damage on a target within a 25m radius of you and up to 3 enemies within 10m of the target."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -4518,11 +4518,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_vassblaster_1_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_vassblaster_1_g7.png"
         ],
-        "dependencies": ["04", "03"],
+        "dependencies": ["05", "04"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Juggernaut cannon",
         "descr": ["Inflicts", " wind damage on a target within 25m. The target's Magic Suppresion decreases by", " and the recovery magic effect decreases by 50% for 18 sec."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -4539,11 +4539,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_armorbreak_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_armorbreak_g7.png"
         ],
-        "dependencies": ["00"],
+        "dependencies": ["01"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Shock and Awe",
         "descr": ["Inflicts", " wind damage on a target within 25m. Stuns the target for 2 sec."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -4572,11 +4572,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_shockcannon_1_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_shockcannon_1_g6.png"
         ],
-        "dependencies": ["10", "11"],
+        "dependencies": ["11", "12"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Paralysis Cannon",
         "descr": ["Inflicts ", " earth damage on a ground target within 25m. Put the target in a openaerial state."],
         "lvl": [52, 55, 58, 61, 64],
@@ -4592,11 +4592,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_antigravitycannon_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_antigravitycannon_g5.png"
         ],
-        "dependencies": ["03", "00"],
+        "dependencies": ["04", "01"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Shellshock",
         "descr": ["Inflicts ", " wind damage on a target whithin 25m. Decreases the target's MP by 8%."],
         "lvl": [55, 58, 61, 64],
@@ -4623,11 +4623,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_mentaliccannon_1_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_mentaliccannon_1_g4.png"
         ],
-        "dependencies": ["12", "13"],
+        "dependencies": ["13", "14"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Hemorrhage Shot",
         "descr": ["Inflicts ", " earth damage on a target within 20m. Target bleeds for 9 sec."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -4645,11 +4645,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_veinsnipe_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_veinsnipe_g7.png"
         ],
-        "dependencies": ["02", "05"],
+        "dependencies": ["03", "06"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Steady Fire",
         "descr": ["Inflicts ", " earth damage on a target within 20m."],
         "descrMod": ["Multicast 5 times"],
@@ -4668,11 +4668,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_onepointrapidfire_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_onepointrapidfire_g7.png"
         ],
-        "dependencies": ["01"],
+        "dependencies": ["02"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Pressurized Chamber",
         "descr": ["Has 100% chance of an additional ", " damage on the target for each attack. The effect lasts for 8 sec, and increases attack power against PCs."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -4688,11 +4688,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_empowerammo_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_empowerammo_g6.png"
         ],
-        "dependencies": ["15", "16"],
+        "dependencies": ["16", "17"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Autoload",
         "descr": ["Resets the cooldown tiem of your Gunshot, Thunk Shot, and Crosstrigger skills."],
         "lvl": [52],
@@ -4702,11 +4702,11 @@
         "icon": [
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_firechainrefresh_g1.png"
         ],
-        "dependencies": ["05", "01"],
+        "dependencies": ["06", "02"],
         "ap": [39400]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Dazzling Fire",
         "descr": ["Inflicts ", " fire damage on a target within 25m. Stuns the target for 3 sec."],
         "lvl": [55, 58, 61, 64],
@@ -4720,7 +4720,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_sunningshot_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/gunslinger/live_gu_sunningshot_g4.png"
         ],
-        "dependencies": ["17", "18"],
+        "dependencies": ["18", "19"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]
@@ -4730,7 +4730,7 @@
     "name": "aethertech",
     "stigmas": [
       {
-        "id": "00",
+        "id": "01",
         "name": "Life Support Trigger",
         "descr": ["Increases your Max MP by ", " MP Regeneration by ", " and HP Regeneration by ", " for 1 min."],
         "lvl": [20, 26, 32, 38, 44, 50, 56, 62],
@@ -4750,7 +4750,7 @@
         ]
       },
       {
-        "id": "01",
+        "id": "02",
         "name": "Nullification Trigger",
         "descr": ["Resist the next magic attack or parries the next physical attack that occurs within 8 sec."],
         "lvl": [20],
@@ -4763,7 +4763,7 @@
         ]
       },
       {
-        "id": "02",
+        "id": "03",
         "name": "Drillbore",
         "descr": ["Inflicts ", " earth damage on a target within 6m and stuns the target. Removes target's protective buffs."],
         "lvl": [25, 31, 37, 43, 49, 55, 61],
@@ -4783,7 +4783,7 @@
         ]
       },
       {
-        "id": "03",
+        "id": "04",
         "name": "Riplash",
         "descr": ["Inflicts ", " water damage on enemies within a 15m fan-shaped radius in front of you."],
         "descrMod": ["Chain skill level 2", "Chilling Wave - Riplash"],
@@ -4803,7 +4803,7 @@
         ]
       },
       {
-        "id": "04",
+        "id": "05",
         "name": "Recharge",
         "descr": ["Recovers ", " MP."],
         "lvl": [37, 43, 49, 55, 61],
@@ -4820,7 +4820,7 @@
         ]
       },
       {
-        "id": "05",
+        "id": "06",
         "name": "Steel Storm",
         "descr": ["Inflicts ", " wind damage on a target within 25m."],
         "lvl": [40, 46, 52, 58, 64],
@@ -4850,7 +4850,7 @@
         ]
       },
       {
-        "id": "06",
+        "id": "07",
         "name": "Aimbot assist",
         "descr": ["Increases your Magical Acc by ", " for 1 min."],
         "lvl": [54, 60],
@@ -4864,7 +4864,7 @@
         ]
       },
       {
-        "id": "07",
+        "id": "08",
         "name": "Gattling Gun",
         "descr": ["Inflicts ", " fire damage on a target within 20m."],
         "descrMod": ["Chain skill level 2", "Cinder Cannon - Gattling Gun"],
@@ -4879,7 +4879,7 @@
         ]
       },
       {
-        "id": "08",
+        "id": "09",
         "name": "Aether Recharge",
         "descr": ["Restores 1500 MP."],
         "lvl": [62],
@@ -4899,7 +4899,7 @@
         ]
       },
       {
-        "id": "09",
+        "id": "10",
         "name": "Leeching Steel",
         "descr": ["Dercreases the target's MP by 600 for 10 sec each time you are under attack."],
         "lvl": [65],
@@ -4911,7 +4911,7 @@
         ]
       },
       {
-        "id": "10",
+        "id": "11",
         "name": "Debilitating Blade",
         "descr": ["Instantly inflict ", " wind damage on a target within 6m and decreases their Attack by ", " and Magic Boost by ", ", for 18 sec."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -4928,11 +4928,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_weaponsmash_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_weaponsmash_g7.png"
         ],
-        "dependencies": ["00", "04"],
+        "dependencies": ["01", "05"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "11",
+        "id": "12",
         "name": "Mobility Thrusters",
         "descr": ["Increases your Speed and Flight Speed by ", "%, and your Knock Back Resist increases by ",
         " but your Root Resist decreases by 200, and your Defence decreases by ", " for up to 10 sec"],
@@ -4948,11 +4948,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_speedoverdrive_g2.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_speedoverdrive_g3.png"
         ],
-        "dependencies": ["01"],
+        "dependencies": ["02"],
         "ap": [6875, 13250, 17250]
       },
       {
-        "id": "12",
+        "id": "13",
         "name": "Convusion Beam",
         "descr": ["Inflicts ", " wind damage on a target within 15m and binds them for 15 sec."],
         "lvl": [50, 53, 56, 59, 62, 65],
@@ -4969,11 +4969,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_bindingslam_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_bindingslam_g6.png"
         ],
-        "dependencies": ["10", "11"],
+        "dependencies": ["11", "12"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "13",
+        "id": "14",
         "name": "Trauma Plate Trigger",
         "descr": ["Increases your Parry by", " and increases resistance to Stun, Bind and Fear by ", " for 20 sec. Reduced damage received in PvP."],
         "lvl": [52, 55, 58, 61, 64],
@@ -4988,11 +4988,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_magneticfield_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_magneticfield_g5.png"
         ],
-        "dependencies": ["04", "01"],
+        "dependencies": ["05", "02"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "14",
+        "id": "15",
         "name": "Kinetic Bulwark",
         "descr": ["Forms a protective shield that has 100% chance to block up to 50% of damage each time you receive attack for up to 30 sec. The shield remains until it absorb ",
           " damage, and consumes MP up to 20% of the damage blocked. Durind that time, your Stun REsistance increased by ", " and Magic Resist by ",
@@ -5009,11 +5009,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_eathiumwall_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_eathiumwall_g4.png"
         ],
-        "dependencies": ["12", "13"],
+        "dependencies": ["13", "14"],
         "ap": [76350, 91800, 187950, 205450]
       },
       {
-        "id": "15",
+        "id": "16",
         "name": "Particle Whip",
         "descr": ["Inflict ", " wind damage on up to 3 enemies within a 15m fan-shaped radius in front of you."],
         "lvl": [45, 48, 51, 54, 57, 60, 63],
@@ -5031,11 +5031,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_flamethrow_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_flamethrow_g7.png"
         ],
-        "dependencies": ["02", "03"],
+        "dependencies": ["03", "04"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "16",
+        "id": "17",
         "name": "Stability Thrusters",
         "descr": ["Removes any Attack Speed debuff inflicted on you. For up to 30 sec, your stun resistanse increases by ",
           " Magic Boost increases by ", " and resistanse to movement debuffs increases by "],
@@ -5055,11 +5055,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_poweroverdrive_g6.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_poweroverdrive_g7.png"
         ],
-        "dependencies": ["05"],
+        "dependencies": ["06"],
         "ap": [6875, 13250, 17250, 22850, 29150, 34800, 66500]
       },
       {
-        "id": "17",
+        "id": "18",
         "name": "Rain of Knuckles",
         "descr": ["Inflicts ", " earth damage on a target within 6m."],
         "descrMod": ["Repeat Activation 3 times.", "Chain skill level 2", "Sundering Blade - Rain of Knuckles"],
@@ -5077,11 +5077,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_rapidattack_g5.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_rapidattack_g6.png"
         ],
-        "dependencies": ["15", "16"],
+        "dependencies": ["16", "17"],
         "ap": [19350, 42900, 53600, 64200, 129100, 141150]
       },
       {
-        "id": "18",
+        "id": "19",
         "name": "Aethercharged Steel",
         "descr": ["Increases Attack Speed by 10% and Magic Boost by ", " for 10 sec. Additional damage inflicted in PvP."],
         "lvl": [52, 55, 58, 61, 64],
@@ -5096,11 +5096,11 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_overcharge_g4.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_overcharge_g5.png"
         ],
-        "dependencies": ["03", "05"],
+        "dependencies": ["04", "06"],
         "ap": [39400, 50900, 61200, 125300, 137000]
       },
       {
-        "id": "19",
+        "id": "20",
         "name": "Meteor Strike",
         "descr": ["Inflicts ", " fire damage on a target within 6m."],
         "lvl": [55, 58, 61, 64],
@@ -5115,7 +5115,7 @@
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_powerslam_g3.png",
           "https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/aethertech/ri_powerslam_g4.png"
         ],
-        "dependencies": ["17", "18"],
+        "dependencies": ["18", "19"],
         "ap": [76350, 91800, 187950, 205450]
       }
     ]

@@ -4,18 +4,23 @@ import { ClassesListProps } from '../../Interfaces';
 
 
 const ClassesList = (props: ClassesListProps) => {
-  const { activeClassIndex, setActiveClassIndex, classesList, clear } = props
+  const { activeClassIndex, setActiveClassIndex, classesList, clear, side, lvl } = props
+
+  const handleChangeClass = (index: number) => {
+    clear && clear()
+    activeClassIndex !== index && setActiveClassIndex(index)
+  }
 
   return (
     <ul className={styles.classesList}>
       {classesList.map((item, index) => (
         <NavLink
-          to={`/${item.name}`}
+          to={`/${item.name}/${Number(side)}${lvl}${Array(12).fill("00").join("")}`}
           className={activeClassIndex === index
             ? styles.active
             : styles.inactive}
           key={item.id}
-          onClick={() => activeClassIndex !== index ? setActiveClassIndex(index) : clear()}
+          onClick={() => handleChangeClass(index)}
         >
           <li
             id={item.id}
