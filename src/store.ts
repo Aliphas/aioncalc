@@ -1,4 +1,3 @@
-import { useLocation } from 'react-router-dom';
 import { atom, selector } from 'recoil'
 import classes from './classes.json'
 import { ClassProps, StigmaProps } from './Interfaces'
@@ -79,5 +78,43 @@ export const advancedSlotsCount = selector<number>({
     : lvl < 58 ? aCounter = 5
     : aCounter = 6
     return aCounter
+  }
+})
+
+export const shardsTotal = selector({
+  key: 'shardsTotal',
+  get: ({get}) => {
+    const currentLvl = get(currentLvlState)
+    const nSlots = get(normalSlots)
+    const aSlots = get(advancedSlots)
+    const getShards = (slot: StigmaProps) => {
+      const reversedLvls = [...slot.lvl].reverse()
+      const currStigmaLvl: number | undefined  = reversedLvls
+        .find((lvl) => lvl <= currentLvl)
+      const stigmalvlIndex: number = currStigmaLvl ? slot.lvl.indexOf(currStigmaLvl) : -1
+      return slot.shards[stigmalvlIndex] | 0
+    }
+    const slots = (nSlots.length > 0 || aSlots.length > 0) ? nSlots.concat(aSlots) : []
+    const shardsArr = slots.map(slot => slot ? getShards(slot) : 0)
+    const sum = shardsArr.reduce((total, curr) => total = total + curr, 0)
+    return sum
+  }
+})
+export const apTotal = selector({
+  key: 'apTotal',
+  get: ({get}) => {
+    const currentLvl = get(currentLvlState)
+    const aSlots = get(advancedSlots)
+    const getAp = (slot: StigmaProps) => {
+      const reversedLvls = [...slot.lvl].reverse()
+      const currStigmaLvl: number | undefined  = reversedLvls
+        .find((lvl) => lvl <= currentLvl)
+      const stigmalvlIndex: number = currStigmaLvl ? slot.lvl.indexOf(currStigmaLvl) : -1
+      const currAp = slot?.ap?.[stigmalvlIndex]
+      return currAp ? currAp : 0
+    }
+    const apArr = aSlots.map(slot => slot ? getAp(slot) : 0)
+    const sum = apArr.reduce((total, curr) => total = total + curr, 0)
+    return sum
   }
 })

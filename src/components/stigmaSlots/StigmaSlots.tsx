@@ -1,15 +1,15 @@
 import styles from './StigmaSlots.module.css'
-import { StigmaSlotsProps } from '../../Interfaces'
+import { StigmaProps, StigmaSlotsProps } from '../../Interfaces'
 import { useRecoilValue } from 'recoil'
 import { advancedSlots, advancedSlotsCount, normalSlots, normalSlotsCount } from '../../store'
 import StigmaItemWrapper from '../stigmaItem/StigmaItemWrapper'
 
 const StigmaSlots = (props: StigmaSlotsProps) => {
   const { currentLvl, stigmaAction } = props
-  const nSlots = useRecoilValue(normalSlots)
-  const aSlots = useRecoilValue(advancedSlots)
-  const nCount = useRecoilValue(normalSlotsCount)
-  const aCount = useRecoilValue(advancedSlotsCount)
+  const nSlots: (StigmaProps | null)[] = useRecoilValue(normalSlots)
+  const aSlots: (StigmaProps | null)[] = useRecoilValue(advancedSlots)
+  const nCount: number = useRecoilValue(normalSlotsCount)
+  const aCount: number = useRecoilValue(advancedSlotsCount)
 
   return (
     <div className={styles.stigmaSlots}>

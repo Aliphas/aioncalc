@@ -13,7 +13,7 @@ const AionCalc = () => {
   const classes = useRecoilValue<ClassProps[]>(classesState)
   const side = useRecoilValue<boolean>(sideState)
   const urlArr = useRecoilValue<string[]>(urlArrState)
-
+  
   return (
     <div className={styles.aionCalcWrapper}>
       <div className={styles.aionCalc}>

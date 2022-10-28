@@ -4,6 +4,11 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
+  background-color: #404040;
+  border-radius: 5px;
+  outline: 2px solid #f7912b;
+  color: #f7912b;
 }
 h1 {
   display: flex;
@@ -14,9 +19,16 @@ h1 {
 .topBar {
   position: relative;
   display: flex;
-  width: 300px;
-  height: 70px;
+  flex-direction: row;
+  width: 100%;
   align-items: center;
+}
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
 .sides {
   position: relative;
@@ -35,24 +47,4 @@ h1 {
   justify-content: center;
   width: 110px;
   margin-right: 10px;
-}
-.lvl {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 5px 20px 0 0px;
-}
-.lvl input {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 28px;
-  font-size: 26px;
-  padding: 0;
-  margin: 5px 3px 5px 10px
-}
-.lvl input::-webkit-outer-spin-button,
-.lvl input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
 }

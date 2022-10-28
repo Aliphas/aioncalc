@@ -2,7 +2,6 @@ import styles from './ClassesList.module.css'
 import { NavLink } from 'react-router-dom';
 import { ClassesListProps } from '../../Interfaces';
 
-
 const ClassesList = (props: ClassesListProps) => {
   const { activeClassIndex, setActiveClassIndex, classesList, clear, side, lvl } = props
 

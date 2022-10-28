@@ -1,0 +1,21 @@
+.lvl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 20px 0 0px;
+}
+.lvl input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 28px;
+  font-size: 26px;
+  padding: 0;
+  margin: 5px 3px 5px 10px;
+  color: #f7912b;
+}
+.lvl input::-webkit-outer-spin-button,
+.lvl input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

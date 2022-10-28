@@ -6,7 +6,7 @@ import StigmaItemWrapper from '../stigmaItem/StigmaItemWrapper'
 import styles from './StigmaTrees.module.css'
 
 const StigmaTree = ({ normal, advanced }: Tree) => {
-  const currentLvl = useRecoilValue<number>(currentLvlState)
+  const currentLvl: number = useRecoilValue(currentLvlState)
 
   return <div className={styles.tree}>
     <div className={styles.column}>

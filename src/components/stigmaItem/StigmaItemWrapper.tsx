@@ -1,70 +1,52 @@
-import { useEffect } from "react"
+import { cloneDeep } from "lodash"
 import { useRecoilValue } from "recoil"
-import { StigmaItemWrapperProps, StigmaProps } from "../../Interfaces"
-import { advancedSlots, advancedSlotsCount, normalSlots, normalSlotsCount } from "../../store"
-import useAddStigma from "../actions/addStigma"
-import useRemoveStigma from "../actions/removeStigma"
+import { DescrInfoProps, StigmaItemWrapperProps } from "../../Interfaces"
+import { sideState } from "../../store"
+import useAddStigma from "../../actions/addStigma"
+import getDescrInfo from "../../actions/getDescrInfo"
+import useRemoveStigma from "../../actions/removeStigma"
 import StigmaItem from "./StigmaItem"
 import styles from "./StigmaItem.module.css"
 
 const StigmaItemWrapper = (props: StigmaItemWrapperProps) => {
   const { stigma, currentLvl, stigmaAction, stigmaPos } = props
-  const nSlots = useRecoilValue(normalSlots)
-  const aSlots = useRecoilValue(advancedSlots)
-  const nCount = useRecoilValue(normalSlotsCount)
-  const aCount = useRecoilValue(advancedSlotsCount)
   const addStigma = useAddStigma()
   const removeStigma = useRemoveStigma()
-
-  const removeSlotByLvl = (slots: (StigmaProps | null)[]) => {
-    slots.map(slot => slot !== null && currentLvl >= 20 
-      && currentLvl <= 65 && slot.lvl[0] > currentLvl && removeStigma(slot))
-  }
-  const removeSlotByCounter = (slots: (StigmaProps | null)[], counter: number) => {
-    slots.map((slot, index) => counter <= index && slot !== null && removeStigma(slot))
-  }
-
-  useEffect(() => {
-    // const timeOutId = setTimeout(() => removeSlotByLvl(nSlots), 100);
-    // return () => clearTimeout(timeOutId);
-    removeSlotByLvl(nSlots)
-  }, [currentLvl, nSlots])
-  useEffect(() => {
-    removeSlotByLvl(aSlots)
-  }, [currentLvl, aSlots])
-  useEffect(() => {
-    // const timeOutId = setTimeout(() => removeSlotByCounter(nSlots, nCount), 100);
-    // return () => clearTimeout(timeOutId);
-    removeSlotByCounter(nSlots, nCount)
-  }, [nCount])
-  useEffect(() => {
-    // const timeOutId = setTimeout(() => removeSlotByCounter(aSlots, aCount), 100);
-    // return () => clearTimeout(timeOutId);
-    removeSlotByCounter(aSlots, aCount)
-  }, [aCount])
-
+  const stigmaClone = cloneDeep(stigma)
+  const side = useRecoilValue(sideState)
+  const reversedLvls = [...stigma.lvl].reverse()
+  const currAvailableLvl: number | undefined  = reversedLvls
+  .find((lvl) => lvl <= currentLvl)
+  const lvlIndex: number = stigma.lvl.indexOf(currAvailableLvl || 0)
+  const stageIndex = (stigma.stage2 && stigma.value && stigma.stage2.value) 
+  ? (stigma.value[0].length - stigma.stage2.value[0].length) : 0
+  const descrInfo: DescrInfoProps = getDescrInfo({side, stigma, lvlIndex, stageIndex})
+  
   return  <>
     {
       stigma.lvl[0] > currentLvl ?
       <StigmaItem
-        stigma={stigma}
-        currentLvl={stigma.lvl[0]}
-        requiredLvl={currentLvl}
+        stigma={stigmaClone}
+        descrInfo={descrInfo}
+        currentLvl={currentLvl}
+        requiredLvl={stigma.lvl[0]}
         key={stigma.id}
         stigmaStyle={styles.redStigma}
       />
       : stigmaPos === "tree" && stigma.isActive ?
       <StigmaItem
-      stigma={stigma}
+      stigma={stigmaClone}
+      descrInfo={descrInfo}
       currentLvl={currentLvl}
       key={stigma.id}
       stigmaStyle={styles.greenStigma}
       />
       :<StigmaItem
-      stigma={stigma}
+      stigma={stigmaClone}
+      descrInfo={descrInfo}
       currentLvl={currentLvl}
       key={stigma.id}
-      changeStigma={stigmaAction ? addStigma : removeStigma}//del
+      changeStigma={stigmaAction ? addStigma : removeStigma}
       stigmaStyle={styles.defaultStigma}
       />
     }   

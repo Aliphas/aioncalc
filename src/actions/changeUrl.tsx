@@ -1,6 +1,6 @@
 import { NavigateFunction } from "react-router-dom"
 import { useRecoilValue } from "recoil"
-import { advancedSlots, currClassValue, currentLvlState, normalSlots, sideState } from "../../store"
+import { advancedSlots, currClassValue, currentLvlState, normalSlots, sideState } from "../store"
 
 const useChangeUrl = (navigate: NavigateFunction) => {
   const currClass = useRecoilValue(currClassValue)

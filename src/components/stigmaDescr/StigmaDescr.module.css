@@ -1,0 +1,12 @@
+.descrText, .descrValues {
+  border-bottom: 1px solid black;
+  padding: 5px 0;
+  margin-bottom: 5px;
+}
+.redColor {
+  color: red;
+}
+.stage {
+  font-size: 12px;
+  color: grey;
+}

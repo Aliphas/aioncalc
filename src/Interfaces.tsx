@@ -22,6 +22,13 @@ export interface ClassesListProps {
   side: boolean
   lvl: number
 }
+export interface LvlProps {
+  currClassName: string
+}
+export interface CostProps {
+  shards: number,
+  ap: number
+}
 export interface MainContentProps {
   currentLvl: number
   index: number
@@ -39,10 +46,10 @@ export interface StigmaItemWrapperProps {
 }
 export interface StigmaItemProps {
   stigma: StigmaProps
+  descrInfo: DescrInfoProps
   currentLvl: number
   requiredLvl?: number
   changeStigma?: (stigma: StigmaProps) => void
-  // changeStigma?: any
   stigmaStyle: string
 }
 export interface StigmaProps {
@@ -80,7 +87,7 @@ export interface StigmaProps {
   dependencies?: Array<string>
   ap?: Array<number>
 }
-export interface StigmaGrade {
+export interface DescrInfoProps {
   name: string
   name_ely?: string
   descr: string[]
@@ -88,6 +95,7 @@ export interface StigmaGrade {
   isActive: boolean
   romanNum: string
   lvl: number
+  minLvl: number
   value?: Array<string | number>
   cost?: number
   costMod?: string
@@ -110,15 +118,24 @@ export interface StigmaGrade {
   icon: string
   dependencies?: Array<StigmaProps["name"]>
   ap?: number
+  descrText1: string[]
+  descrText2?: string[]
+  descrText3?: string[]
+}
+export interface GetDescrInfo {
+  side: boolean,
+  stigma: StigmaProps,
+  lvlIndex: number,
+  stageIndex: number
 }
 export interface StigmaDescrProps {
-  currStigma: StigmaGrade
+  currStigma: DescrInfoProps
+  descrText: string[],
+  descrText2?: string[],
+  descrText3?: string[],
   styles: {
     readonly [key: string]: string;
   }
-  descrText: string[]
-  descrText2: string[] | undefined
-  descrText3: string[] | undefined
   currentLvl: number
 }
 export interface StigmaSlotsProps {
@@ -136,6 +153,11 @@ export interface AddStigmaProps {
   activeClassIndex: number
   nCount: number
   aCount: number
+}
+export interface AddStigmaChangedProps {
+  classes: ClassProps[],
+  nSlots: (StigmaProps | null)[]
+  aSlots: (StigmaProps | null)[]
 }
 export interface AddProps {
   stigmaClone: StigmaProps,
@@ -159,12 +181,13 @@ export interface RemoveProps {
   index: number,
   activeClassIndex: number
 }
+export interface RemoveSlotByCounterProps {
+  slots: (StigmaProps | null)[],
+  counter: number
+}
 export interface ChangeUrlProps {
   navigate: NavigateFunction
   clear?: boolean
-}
-export interface LoadProps {
-
 }
 export interface Tree {
     advanced: StigmaProps[],

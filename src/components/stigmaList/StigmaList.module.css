@@ -1,9 +1,12 @@
 .stigmaListWrapper {
-  width: 345px;
-  height: 250px; 
+  width: 325px;
+  height: 240px; 
   grid-column: 2;
   grid-row: 1;
   padding-top: 25px;
+  background-color: #626262;
+  border-radius: 5px;
+  outline: 2px solid #f7912b;
 }
 .stigmaList {
   display: flex;

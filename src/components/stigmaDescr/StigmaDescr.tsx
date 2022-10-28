@@ -1,7 +1,8 @@
 import { StigmaDescrProps } from "../../Interfaces";
+import styles from './StigmaDescr.module.css'
 
 const StigmaDescr = (props: StigmaDescrProps) => {
-  const { currStigma, styles, descrText, descrText2, descrText3, currentLvl } = props
+  const { currStigma, descrText, descrText2, descrText3, currentLvl } = props
 
   const numberToTime = (number: number) => {
     const s = number%60 > 0 ? `${number%60} sec` : ""
@@ -17,7 +18,7 @@ const StigmaDescr = (props: StigmaDescrProps) => {
         {currStigma.descrMod && currStigma.descrMod.map(mod => (<div>{mod}</div>))}
       </div>
       <div className={styles.descrValues}>
-        {currStigma.lvl && <div className={currentLvl < currStigma.lvl ? styles.redColor : ""}>Required lvl: {currStigma.lvl}</div>}
+        <div className={ !currStigma.lvl ? styles.redColor : ""}>Required lvl: {currStigma.lvl || currStigma.minLvl}</div>
         {currStigma.cost ? <div>Skill cost: {currStigma.cost}{currStigma.costMod ? currStigma.costMod: " MP"}</div> : null}
         <div>Cast time: {typeof currStigma.cast === "number" ? `${currStigma.cast} sec`:"Instant"}</div>
         {currStigma.cooldown ? <div>Cooldown: {numberToTime(currStigma.cooldown)}</div> : null}

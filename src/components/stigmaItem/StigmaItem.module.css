@@ -1,4 +1,5 @@
 .stigma {
+  position: relative;
   left: 0;
   top: 0;
   margin: 0 8px 4px 0;
@@ -51,15 +52,29 @@
 .descr {
   min-width: 220px;
 }
-.descrText, .descrValues {
-  border-bottom: 1px solid black;
-  padding: 5px 0;
-  margin-bottom: 5px;
-}
-.redColor {
-  color: red;
-}
-.stage {
-  font-size: 12px;
+
+.key {
+  display: inline-block;
+  min-width: 60px;
   color: grey;
 }
+.iconDescrsWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.iconDescr {
+  display: flex;
+  margin-right: 10px;
+}
+.iconWrapper {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  margin-right: 3px;
+}
+.shard {
+  position: relative;
+  top: -16px;
+}
+
