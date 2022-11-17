@@ -2,7 +2,7 @@ import { StigmaDescrProps } from "../../Interfaces";
 import styles from './StigmaDescr.module.css'
 
 const StigmaDescr = (props: StigmaDescrProps) => {
-  const { currStigma, descrText, descrText2, descrText3, currentLvl } = props
+  const {currStigma} = props
 
   const numberToTime = (number: number) => {
     const s = number%60 > 0 ? `${number%60} sec` : ""
@@ -12,9 +12,9 @@ const StigmaDescr = (props: StigmaDescrProps) => {
 
   return (
     <div className={styles.descr}>
-      {descrText2 ? <div className={styles.stage}>Stage 1</div> : null}
+      {currStigma.descrText2 ? <div className={styles.stage}>Stage 1</div> : null}
       <div className={styles.descrText}>
-        {descrText}
+        {currStigma.descrText1}
         {currStigma.descrMod && currStigma.descrMod.map(mod => (<div>{mod}</div>))}
       </div>
       <div className={styles.descrValues}>
@@ -23,20 +23,20 @@ const StigmaDescr = (props: StigmaDescrProps) => {
         <div>Cast time: {typeof currStigma.cast === "number" ? `${currStigma.cast} sec`:"Instant"}</div>
         {currStigma.cooldown ? <div>Cooldown: {numberToTime(currStigma.cooldown)}</div> : null}
       </div>
-      { descrText2 && currStigma.stage2 &&
+      { currStigma.descrText2 && currStigma.stage2 &&
         <>
           <div className={styles.stage}>Stage 2</div>
-          <div className={styles.descrText}>{descrText2}</div>
+          <div className={styles.descrText}>{currStigma.descrText2}</div>
           <div className={styles.descrValues}>
             {currStigma.stage2.cost ? <div>Skill cost: {currStigma.stage2.cost}{currStigma.costMod ? currStigma.costMod: " MP"}</div> : null}
             {currStigma.stage2.cast ? <div>Cast time: {currStigma.stage2.cast} sec</div> : null}
           </div>
         </>
       }
-      { descrText3 && currStigma.stage3 &&
+      { currStigma.descrText3 && currStigma.stage3 &&
         <>
           <div className={styles.stage}>Stage 3</div>
-          <div className={styles.descrText}>{descrText3}</div>
+          <div className={styles.descrText}>{currStigma.descrText3}</div>
           <div className={styles.descrValues}>
             {currStigma.stage3.cost ? <div>Skill cost: {currStigma.stage3.cost}{currStigma.costMod? currStigma.costMod: " MP"}</div> : null}
             {currStigma.stage3.cast ? <div>Cast time: {currStigma.stage3.cast} sec</div> : null}

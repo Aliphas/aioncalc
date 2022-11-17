@@ -28,8 +28,6 @@ const StigmaItemWrapper = (props: StigmaItemWrapperProps) => {
       <StigmaItem
         stigma={stigmaClone}
         descrInfo={descrInfo}
-        currentLvl={currentLvl}
-        requiredLvl={stigma.lvl[0]}
         key={stigma.id}
         stigmaStyle={styles.redStigma}
       />
@@ -37,14 +35,12 @@ const StigmaItemWrapper = (props: StigmaItemWrapperProps) => {
       <StigmaItem
       stigma={stigmaClone}
       descrInfo={descrInfo}
-      currentLvl={currentLvl}
       key={stigma.id}
       stigmaStyle={styles.greenStigma}
       />
       :<StigmaItem
       stigma={stigmaClone}
       descrInfo={descrInfo}
-      currentLvl={currentLvl}
       key={stigma.id}
       changeStigma={stigmaAction ? addStigma : removeStigma}
       stigmaStyle={styles.defaultStigma}

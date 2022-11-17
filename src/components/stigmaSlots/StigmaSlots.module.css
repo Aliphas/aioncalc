@@ -1,14 +1,16 @@
 .stigmaSlots {
   display: flex;
-  width: 360px;
-  height: 250px;
-  padding: 15px 0 0 15px;
+  width: 375px;
+  height: 265px;
   background-color: #626262;
   border-radius: 5px;
   outline: 2px solid #f7912b;
 }
 .stigmaSlots > div {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   width: 180px;
   height: 250px;
   z-index: 1;
@@ -67,4 +69,22 @@
   outline: none;
   padding: 1px;
 }
+
+@media screen and (max-width: 750px) {
+  .stigmaSlots {
+    width: calc(100vw - 10px);
+    height: auto;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+  }
+  .stigmaSlots > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 

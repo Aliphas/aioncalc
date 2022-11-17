@@ -47,8 +47,6 @@ export interface StigmaItemWrapperProps {
 export interface StigmaItemProps {
   stigma: StigmaProps
   descrInfo: DescrInfoProps
-  currentLvl: number
-  requiredLvl?: number
   changeStigma?: (stigma: StigmaProps) => void
   stigmaStyle: string
 }
@@ -130,13 +128,6 @@ export interface GetDescrInfo {
 }
 export interface StigmaDescrProps {
   currStigma: DescrInfoProps
-  descrText: string[],
-  descrText2?: string[],
-  descrText3?: string[],
-  styles: {
-    readonly [key: string]: string;
-  }
-  currentLvl: number
 }
 export interface StigmaSlotsProps {
   currentLvl: number

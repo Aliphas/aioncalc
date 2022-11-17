@@ -1,16 +1,20 @@
 .costWrapper {
   display: flex;
   flex-direction: row;
+  flex-grow: 0.7;
+  flex-grow: 1;
+}
+.shardsContainer, .apContainer {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  flex-grow: 0.7;
 }
 .cost {
   width: 16px;
   height: 16px;
   overflow: hidden;
   margin: 0 5px;
-  
 }
 .shard {
   position: relative;
@@ -19,4 +23,17 @@
 .costValue {
   width: 55px;
   user-select: all;
+}
+
+@media screen and (max-width: 410px) {
+  .costWrapper {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  .shardsContainer {
+    margin-bottom: 5px;
+  }
+  .costValue {
+    width: 40px;
+  }
 }

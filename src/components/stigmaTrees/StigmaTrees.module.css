@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   width: 720px;
   max-width: 100%;
-  height: 320px;
-  margin-top: 20px;
+  min-height: 320px;
+  margin: 20px 0 5px 0;
   background-color: #626262;
   border-radius: 5px;
   outline: 2px solid #f7912b;
@@ -53,4 +53,10 @@
   position: absolute;
   top: 185px;
   left: 162px;
+}
+
+@media screen and (max-width: 750px) {
+  .stigmaTrees {
+    margin-top: 0;
+  }
 }

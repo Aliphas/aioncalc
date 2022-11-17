@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  min-width: 720px;
+  width: 720px;
   max-width: 100vw;
   min-height: 550px;
 }
@@ -12,4 +12,13 @@
   max-width: 100vw;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+  .mainContent {
+    width: calc(100vw - 10px);
+  }
+  .topPartWrapper {
+    width: calc(100vw - 10px);
+  }
 }

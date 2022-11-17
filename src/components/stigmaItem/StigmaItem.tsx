@@ -6,7 +6,7 @@ import { StigmaItemProps } from "../../Interfaces";
 import StigmaDescr from "../stigmaDescr/StigmaDescr";
 
 const StigmaItem = (props: StigmaItemProps) => {
-  const { stigma, descrInfo, currentLvl, changeStigma, stigmaStyle, requiredLvl } = props
+  const { stigma, descrInfo, changeStigma, stigmaStyle } = props
 
   const stigmaHandleClick = () => changeStigma && changeStigma(stigma)
   
@@ -17,13 +17,8 @@ const StigmaItem = (props: StigmaItemProps) => {
           <React.Fragment>
             <h3>{`${descrInfo.name} ${descrInfo.romanNum || 'I'}`}</h3>
             <div className={styles.descr}>
-              <StigmaDescr
-                currStigma={descrInfo}
-                styles={styles}
-                descrText={descrInfo.descrText1}
-                descrText2={descrInfo.descrText2}
-                descrText3={descrInfo.descrText3}
-                currentLvl={requiredLvl || currentLvl} />
+              <StigmaDescr currStigma={descrInfo}
+               />
             </div>
           </React.Fragment>
         }

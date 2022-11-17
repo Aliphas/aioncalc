@@ -10,10 +10,12 @@
   padding: 0;
   user-select: none
 }
+
 .classesList li {
   width: 64px;
   height: 64px;
 }
+
 .classesList li a {
   width: 100%;
   height: 100%;
@@ -25,7 +27,7 @@
   opacity: 0.7;
 }
 .classesList a:nth-child(1) {
-  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/gladiator.png");
+  background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/gladiator.png") 50% 50%;
 }
 .classesList a:nth-child(2) {
   background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/templar.png");
@@ -56,4 +58,15 @@
 }
 .classesList a:nth-child(11) {
   background: url("https://raw.githubusercontent.com/Aliphas/aioncalc-images/main/global/aethertech.png");
+}
+@media screen and (max-width: 750px) {
+  .classesList {
+    width: 100vw;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .classesList a li {
+    width: 60px;
+    height: 60px;
+  }
 }

@@ -25,7 +25,7 @@ const useRemoveStigma = () => {
     })
     nIndex !== -1 && remove({ stigma, classesClone, slots: nSlotsClone, index: nIndex, activeClassIndex })
     aIndex !== -1 && remove({ stigma, classesClone, slots: aSlotsClone, index: aIndex, activeClassIndex })
-    console.log(`remove ${stigma.name}, nIndex: ${nIndex}`)
+    
     setClasses(classesClone)
     setNSlots(nSlotsClone)
     setASlots(aSlotsClone)

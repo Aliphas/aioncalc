@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  padding: 0;
   background-color: #404040;
   border-radius: 5px;
   outline: 2px solid #f7912b;
@@ -22,6 +23,7 @@ h1 {
   flex-direction: row;
   width: 100%;
   align-items: center;
+  padding: 0;
 }
 .leftSide {
   display: flex;
@@ -38,7 +40,7 @@ h1 {
   overflow: hidden;
   cursor: pointer;
 }
-.asmo{
+.asmo {
   position: absolute;
   top: -32px; 
 }
@@ -47,4 +49,9 @@ h1 {
   justify-content: center;
   width: 110px;
   margin-right: 10px;
+}
+@media screen and (max-width: 750px) {
+  .header {
+    max-width: calc(100vw - 5px)
+  }
 }

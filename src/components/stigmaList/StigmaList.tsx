@@ -4,7 +4,6 @@ import StigmaItemWrapper from '../stigmaItem/StigmaItemWrapper'
 
 const StigmaList = (props: StigmaListProps) => {
   const { currentLvl, stigmaList, stigmaAction } = props
-
   return (
     <div className={styles.stigmaListWrapper}>
       <div className={styles.stigmaList}>

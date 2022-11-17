@@ -13,3 +13,8 @@
   width: 750px;
   margin-top: 30px;
 }
+@media screen and (max-width: 750px) {
+  .aionCalc {
+    margin-top: 5px;
+  }
+}

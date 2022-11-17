@@ -14,3 +14,21 @@
   width: auto;
   padding: 10px;
 }
+
+@media screen and (max-width: 750px) {
+  .stigmaListWrapper {
+    width: calc(100vw - 10px);
+    height: auto;
+    display: flex;
+    padding: 5px 0 5px 10px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .stigmaList {
+    align-items: center;
+    justify-content: start;
+  }
+  .stigmaList > div {
+    margin: 3px;
+  }
+}
